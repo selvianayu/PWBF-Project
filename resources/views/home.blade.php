@@ -17,19 +17,30 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="styles.css" rel="stylesheet" />
+        <!-- font awesome icon -->
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     </head>
     <body id="page-top">
         <!-- Navigation-->
+
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="/adoption"></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#constructions">Pet Health Guide</a></li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-light"font-family:Merriweather Sans>
+                      <li><a class="dropdown-item" href="#services">Adoption</a></li>
+                      <li><a class="dropdown-item" href="#report">Your Report</a></li>
+                    </ul>
+                    </li>
+                    <a class="btn btn-primary btn-sm" href="#" role="button">Sign Up</a>
                     </ul>
                 </div>
             </div>
@@ -39,11 +50,11 @@
             <div class="container px-4 px-lg-5 h-100">
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white font-weight-bold">Your Favorite Place for Free Bootstrap Themes</h1>
+                        <h1 class="text-white font-weight-bold">Find Your Pets</h1>
                         <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
+                        <p class="text-white-75 mb-5">Welcome to Find Your Pets. We're all about getting homeless pets into homes.</p>
                         <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
                     </div>
                 </div>
@@ -54,10 +65,11 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">We've got what you need!</h2>
+                        <h2 class="text-white mt-0">About Find Your Pets</h2>
                         <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
-                        <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
+                        <p class="text-white-75 mb-4">Find Your Pets is an online shelter that uses Internet technology and resources to produce searchable animals that need homes, Increase public awareness of the availability of adoptable pets, and
+to Elevate the status of pets to that of family member</p>
+                      
                     </div>
                 </div>
             </div>
@@ -65,42 +77,570 @@
         <!-- Services-->
         <section class="page-section" id="services">
             <div class="container px-4 px-lg-5">
-                <h2 class="text-center mt-0">At Your Service</h2>
+                <h2 class="text-center mt-0">Adoption</h2>
                 <hr class="divider" />
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Sturdy Themes</h3>
-                            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
-                        </div>
+                <div class="row gx-4 gx-lg-5 d-flex justify-content-center">
+                  
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card">
+        <img src="assets/img/sh3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Boby</h5>
+        <p class="card-text">Hello My Name is Boby!</p>
+        <a class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#boby">Read more</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+    <img src="assets/img/arthur.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Arthur</h5>
+        <p class="card-text">Hello My Name is Arthur!</p>
+        <a class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#Arthur">Read more</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+        <img src="assets/img/sh4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Ciko</h5>
+        <p class="card-text">Hello My Name is Ciko!</p>
+        <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ciko">Read more</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card">
+        <img src="assets/img/anjing1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Stiff</h5>
+        <p class="card-text">Hello My Name is Stiff!</p>
+        <a class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#Stiff">Read more</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+    <img src="assets/img/anjing2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Valen</h5>
+        <p class="card-text">Hello My Name is Valen!</p>
+        <a class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#valen">Read more</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4">
+    <div class="card">
+        <img src="assets/img/anjing3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Puffy</h5>
+        <p class="card-text">Hello My Name is Puffy!</p>
+        <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#puffy">Read more</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card">
+        <img src="assets/img/yemia.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Yemia</h5>
+        <p class="card-text">Hello My Name is Yemia!</p>
+        <a class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#yemia">Read more</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+    <img src="assets/img/gery.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Gery</h5>
+        <p class="card-text">Hello My Name is Gery!</p>
+        <a class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#gery">Read more</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4">
+    <div class="card">
+        <img src="assets/img/anjing3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Oci</h5>
+        <p class="card-text">Hello My Name is Oci!</p>
+        <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#puffy">Read more</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- modal ciko.. -->
+<div class="modal fade" id="ciko" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Facts About Me</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <p class="modal-text"></p>
+      <p class="modal-text-center">Breed  : Domestic cat</p>
+        <p class="modal-text">Colour : Brown</p>
+        <p class="modal-text">Age    : Young</p>
+        <p class="modal-text">Weight : 5 kg</p>
+        <p class="modal-text">Sex    : male</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Adopt Me?</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal boby.. -->
+<div class="modal fade" id="boby" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Facts About Me</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <p class="modal-text"></p>
+      <p class="modal-text-center">Breed  : Domestic cat</p>
+        <p class="modal-text">Colour : Orange</p>
+        <p class="modal-text">Age    : Young</p>
+        <p class="modal-text">Weight : 6 kg</p>
+        <p class="modal-text">Sex    : female</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Adopt me?</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal Arthur.. -->
+<div class="modal fade" id="Arthur" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Facts About Me</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <p class="modal-text"></p>
+        <p class="modal-text-center">Breed  : Snowshoe</p>
+        <p class="modal-text">Colour : Brown with White</p>
+        <p class="modal-text">Age    : Young</p>
+        <p class="modal-text">Weight : 10 kg</p>
+        <p class="modal-text">Sex    : Male</p>
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Adopt me?</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal stiff -->
+<div class="modal fade" id="Stiff" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Facts About Me</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <p class="modal-text"></p>
+      <p class="modal-text-center">Breed  : Beagle</p>
+        <p class="modal-text">Colour : Brown-White-Black</p>
+        <p class="modal-text">Age    : Young</p>
+        <p class="modal-text">Weight : 8 kg</p>
+        <p class="modal-text">Sex    : male</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Adopt Me?</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal Valen -->
+<div class="modal fade" id="valen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Facts About Me</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <p class="modal-text"></p>
+      <p class="modal-text-center">Breed  : Boston Terriere</p>
+        <p class="modal-text">Colour : Brown- White</p>
+        <p class="modal-text">Age    : Young</p>
+        <p class="modal-text">Weight : 8,5 kg</p>
+        <p class="modal-text">Sex    : Female</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Adopt Me?</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal puffy -->
+<div class="modal fade" id="puffy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Facts About Me</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <p class="modal-text"></p>
+      <p class="modal-text-center">Breed  : Kintamani dog</p>
+        <p class="modal-text">Colour : Black</p>
+        <p class="modal-text">Age    : Young</p>
+        <p class="modal-text">Weight : 7 kg</p>
+        <p class="modal-text">Sex    : male</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Adopt Me?</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal yemia -->
+<div class="modal fade" id="yemia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Facts About Me</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <p class="modal-text"></p>
+      <p class="modal-text-center">Breed  : Moggy</p>
+        <p class="modal-text">Colour : Black-White</p>
+        <p class="modal-text">Age    : Young</p>
+        <p class="modal-text">Weight : 5 kg</p>
+        <p class="modal-text">Sex    : Female</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Adopt Me?</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- pop up adoption 3-->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+        </section>
+        <section class="page-section bg-primary" id="report">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0 text-light">Your Report</h2>
+                        <hr class="divider" />
+                        <p class="text-light mb-5">Report the animal you find and attach the picture!</p>
                     </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Up to Date</h3>
-                            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
-                        </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                    <div class="col-lg-6">
+                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Name input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Full name</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <!-- Email address input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <label for="email">Email address</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <!-- Phone number input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <label for="phone">Phone number</label>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <label for="message">Message</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                              <!-- file input-->
+                            <div class="form-floating mb-3">
+                            <input type="file" class="form-control" id="file">
+                            </div>
+                            
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3 text-light">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                    To activate this form, sign up please!
+                                    <br />
+                                    <a href=""></a>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                            <!-- Submit Button-->
+                            <div class="d-grid"><button class="btn btn-light btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
+                        </form>
                     </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Ready to Publish</h3>
-                            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Made with Love</h3>
-                            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
-                        </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                        <i class="bi bi-phone fs-2 mb-3" style="color: #fff;"></i>
+                        <div class="text-light">+62 123-4567-8910</div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+                           
+            </div>
+        </section>
         <!-- Portfolio-->
-        <div id="portfolio">
+        <!-- ======= Constructions Section ======= -->
+    <section id="constructions" class="constructions">
+      <div class="container" data-aos="fade-up">
+
+      <section class="page-section" id="services">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0">Pet Health Guide</h2>
+                <hr class="divider" />
+                <div class="row gx-4 gx-lg-5 d-flex justify-content-center">
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg"><img src="assets/img/p8.jpg" alt="" style="height:230px;"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">How to improve your pet's mood</h4>
+                    <p>You can tell when your pet is joyful,your pet wags her tail excitedly as you approach the pet park, your cat curls up next to you and purrs. And it's true, animals have moods too. With both dogs and cats, exercise is essential for staying physically and emotionally healthy. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg"><img src="assets/img/p9.jpg" alt="" style="height:230px;"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Why vaccinate your pets?</h4>
+                    <p>Vaccines are preventative rather than curative. Vaccinations protect your pet from several highly contagious diseases such as canine distemper, parvovirus infection and respiratory tract infections. It also protects against transmissible diseases such as rabies that also pose a risk to humans.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                <div class="card-bg"><img src="assets/img/p1.jpg" alt="" style="height:250px;"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">7 Essential Cleaning Tips Every Pet Owner Should Know</h4>
+                    <p>1. Use A Lint Roller (Or Handheld Vacuum)</p>
+                    <p>2. Stop Dirt at the Door</p>
+                    <p>3. Deep-Clean All Pet Collars and Toys</p>
+                    <p>4. Use White Vinegar to Deodorize Your Carpet</p>
+                    <p>5. Brush Your Pets Regularly</p>
+                    <p>6. Use Baking Soda to Clean Your Pet Beds</p>
+                    <p>7. Scoop & Clean the Litter Box (More Often Than You Think)</p>
+                
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                <div class="card-bg"><img src="assets/img/p6.jpg" alt="" style="height:220px;"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">How to select a high quality pet food</h4>
+                    <p>It may take some initial time and energy in determining which food is right for your pet, but your efforts will be rewarded in a healthy, happy, beautiful pet. The best way to find the healthiest kitten food is to compare foods, choose a few possible options, and then talk with your veterinarian about which of those is best for your pet. Consider the protein source in the food and pick a diet that does not contain a lot of filler ingredients. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+  <div class="card-item">
+    <div class="row">
+      <div class="col-xl-5">
+      <div class="card-bg"><img src="assets/img/p10.jpg" alt="" style="height:200px;"></div>
+      </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">Pets Need Dental Care, Too</h4>
+          <p>just like you, your pet can suffer from gum disease, tooth loss, and tooth pain. And just like you, regular brushing and oral cleanings help keep your pet’s teeth strong and healthy. Dental disease is one of the most common preventable illnesses in pets yet many people never even look in their pet’s mouths. It’s estimated 80% of dogs and 70% cats show signs of dental disease by age three, leading to abscesses, loose teeth, and chronic pain. In addition to regular dental cleanings by your vet, periodontal disease can be avoided by proper dental care by owners. Owner care includes brushing, oral rinses, and dental treats. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- End Card Item -->
+
+
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+  <div class="card-item">
+    <div class="row">
+      <div class="col-xl-5">
+      <div class="card-bg"><img src="assets/img/p3.jpg" alt="" style="height:260px;"></div>
+      </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">Spay and Neuter Your Pets</h4>
+          <p>Eight million to 10 million pets end up in U.S. shelters every year. Some are lost, some have been abandoned, and some are homeless. Here’s an easy way to avoid adding to that number — spay and neuter your cats and dogs. It’s a procedure that can be performed as early as six to eight weeks of age. Spaying and neutering doesn’t just cut down on the number of unwanted pets; it has other substantial benefits for your pet. Studies show it also lowers the risk of certain cancers and reduces a pet’s risk of getting lost by decreasing the tendency to roam.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- End Card Item -->
+
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="700">
+  <div class="card-item">
+    <div class="row">
+      <div class="col-xl-5">
+      <div class="card-bg"><img src="assets/img/p2.jpg" alt="" style="height:190px;"></div>
+      </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">provide our pet with good hygiene habits at home</h4>
+          <p>As your pets' caretaker, your job is to provide them with good hygiene habits at home as well as at the vet's or groomer's. Brushing their teeth, combing their coats and providing them with healthy food all keeps them in tip-top shape. To stay on track with responsible pet care, schedule hygiene and grooming tasks in your calendar and try combining tasks, such as a comforting comb after trimming nails, until it becomes routine. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- End Card Item -->
+
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="800">
+  <div class="card-item">
+    <div class="row">
+      <div class="col-xl-5">
+      <div class="card-bg"><img src="assets/img/p12.jpg" alt="" style="height:180px;"></div>
+      </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">Training and Socializing</h4>
+          <p>One of the most important aspects of responsible pet care is ensuring your dog or cat is well-trained, and proper socializing is a part of that. Starting when they're young is best and most effective, but it's never too late to learn new tricks. Toilet training is the number one priority for any animal with whom you share your home, as is working on obedience training. Learning socialization skills will help your puppy or kitten bond with you and with other pets. Ask your vet or local animal shelter for recommendations for good trainers in your area or at-home training guides to read. A well-trained pet is a happy pet, and that translates to a happy pet parent.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- End Card Item -->
+
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="900">
+  <div class="card-item">
+    <div class="row">
+      <div class="col-xl-5">
+      <div class="card-bg"><img src="assets/img/p11.jpg" alt="" style="height:180px;"></div>
+      </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">Safe Playtime</h4>
+          <p>It's no secret that dogs and cats love to play, and it's an effective relationship-building activity. Take stock of their toys. Are they safe? Be mindful of threadbare stuffed toys that pose choking hazards and hard, sharp edges that could cause injury. Throw away and replace playthings that are worn out. Making DIY cat toys and dog toys is a great, inexpensive way to bring even more fun to pet parenting!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- End Card Item -->
+
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="1000">
+  <div class="card-item">
+    <div class="row">
+      <div class="col-xl-5">
+      <div class="card-bg"><img src="assets/img/p4.jpg" alt="" style="height:260px;"></div>
+      </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">Veterinarian Visits</h4>
+          <p>Responsible pet ownership starts with regular visits to the veterinarian. Given their shorter-than-human lifespan, your dog or cat should be getting a checkup at least once or twice a year. Depending on your pet's vaccination schedule, they may go more frequently when they're young, but establishing and maintaining good pet health means keeping up with vet visits as they age.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- End Card Item -->
+        </div>
+
+      </div>
+    </section><!-- End Constructions Section -->
+
+
+        <!-- <div id="portfolio">
             <div class="container-fluid p-0">
                 <div class="row g-0">
                     <div class="col-lg-4 col-sm-6">
@@ -159,16 +699,15 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Call to action-->
         <section class="page-section bg-dark text-white">
             <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-                <a class="btn btn-light btn-xl" href="https://startbootstrap.com/theme/creative/">Download Now!</a>
+             
             </div>
         </section>
         <!-- Contact-->
-        <section class="page-section" id="contact">
+        <!-- <section class="page-section" id="contact">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6 text-center">
@@ -178,7 +717,7 @@
                     </div>
                 </div>
                 <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6"> -->
                         <!-- * * * * * * * * * * * * * * *-->
                         <!-- * * SB Forms Contact Form * *-->
                         <!-- * * * * * * * * * * * * * * *-->
@@ -186,36 +725,36 @@
                         <!-- To make this form functional, sign up at-->
                         <!-- https://startbootstrap.com/solution/contact-forms-->
                         <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
+                        <!-- <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
                                 <label for="name">Full name</label>
                                 <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>
-                            <!-- Email address input-->
+                         
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
                                 <label for="email">Email address</label>
                                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
-                            <!-- Phone number input-->
+                            
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
                                 <label for="phone">Phone number</label>
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                             </div>
-                            <!-- Message input-->
+
+
                             <div class="form-floating mb-3">
                                 <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
                                 <label for="message">Message</label>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
+                            
+
+
                             <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3">
                                     <div class="fw-bolder">Form submission successful!</div>
@@ -224,28 +763,28 @@
                                     <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                                 </div>
                             </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
+                          
+
+
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
+                         
+
                             <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
                         </form>
                     </div>
                 </div>
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                        <i class="bi-phone fs-2 mb-3 text-muted"></i>
+                        <i class="bi bi-phone-fill"></i>
                         <div>+1 (555) 123-4567</div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Footer-->
+        
         <footer class="bg-light py-5">
             <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2022 - Company Name</div></div>
-        </footer>
+        </footer> -->
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- SimpleLightbox plugin JS-->
@@ -257,5 +796,6 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
