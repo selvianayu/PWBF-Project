@@ -40,7 +40,7 @@
                       <li><a class="dropdown-item" href="#report">Your Report</a></li>
                     </ul>
                     </li>
-                    <a class="btn btn-primary btn-sm" href="#" role="button">Sign Up</a>
+                    <a class="btn btn-primary btn-sm" href="/signIn" role="button">Sign In</a>
                     </ul>
                 </div>
             </div>
@@ -84,7 +84,7 @@ to Elevate the status of pets to that of family member</p>
 <div class="row">
   <div class="col-sm-4">
     <div class="card">
-        <img src="assets/img/sh3.jpg" class="card-img-top" alt="...">
+        <img src="assets/img/boby.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Boby</h5>
         <p class="card-text">Hello My Name is Boby!</p>
@@ -104,7 +104,7 @@ to Elevate the status of pets to that of family member</p>
   </div>
   <div class="col-sm-4">
     <div class="card">
-        <img src="assets/img/sh4.jpg" class="card-img-top" alt="...">
+        <img src="assets/img/ciko.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Ciko</h5>
         <p class="card-text">Hello My Name is Ciko!</p>
@@ -117,17 +117,17 @@ to Elevate the status of pets to that of family member</p>
 <div class="row">
   <div class="col-sm-4">
     <div class="card">
-        <img src="assets/img/anjing1.jpg" class="card-img-top" alt="...">
+        <img src="assets/img/stiff.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Stiff</h5>
         <p class="card-text">Hello My Name is Stiff!</p>
-        <a class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#Stiff">Read more</a>
+        <a class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#stiff">Read more</a>
       </div>
     </div>
   </div>
   <div class="col-sm-4">
     <div class="card">
-    <img src="assets/img/anjing2.jpg" class="card-img-top" alt="...">
+    <img src="assets/img/valen.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Valen</h5>
         <p class="card-text">Hello My Name is Valen!</p>
@@ -138,7 +138,7 @@ to Elevate the status of pets to that of family member</p>
 
   <div class="col-sm-4">
     <div class="card">
-        <img src="assets/img/anjing3.jpg" class="card-img-top" alt="...">
+        <img src="assets/img/puffy.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Puffy</h5>
         <p class="card-text">Hello My Name is Puffy!</p>
@@ -161,7 +161,7 @@ to Elevate the status of pets to that of family member</p>
   </div>
   <div class="col-sm-4">
     <div class="card">
-    <img src="assets/img/gery.jpg" class="card-img-top" alt="...">
+    <img src="assets/img/gery4.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Gery</h5>
         <p class="card-text">Hello My Name is Gery!</p>
@@ -172,11 +172,11 @@ to Elevate the status of pets to that of family member</p>
 
   <div class="col-sm-4">
     <div class="card">
-        <img src="assets/img/anjing3.jpg" class="card-img-top" alt="...">
+        <img src="assets/img/oci.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Oci</h5>
         <p class="card-text">Hello My Name is Oci!</p>
-        <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#puffy">Read more</a>
+        <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#oci">Read more</a>
       </div>
     </div>
   </div>
@@ -185,24 +185,36 @@ to Elevate the status of pets to that of family member</p>
 
 <!-- modal ciko.. -->
 <div class="modal fade" id="ciko" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Facts About Me</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-      <p class="modal-text"></p>
-      <p class="modal-text-center">Breed  : Domestic cat</p>
-        <p class="modal-text">Colour : Brown</p>
-        <p class="modal-text">Age    : Young</p>
-        <p class="modal-text">Weight : 5 kg</p>
-        <p class="modal-text">Sex    : male</p>
-
+      <div class="card">
+            <img src="assets/img/ciko.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title mb-3">Ciko!</h4>
+              <p class="card-text">Well hello there! My name is Ciko! I’m a very handsome boy that is looking for a home! I am currently at shelter! I get to go into playgroup everyday and play with many dogs! it’s seriously the BEST! I’m not sure what my past life was, but I lived in a shelter for 10 months?</p>
+              <h5 class="card-title mb-3">My Info!</h5>
+                <div class="row align-items-start">
+                  <div class="col">
+                    <p class="card-text">Breed : Domestic Cat</p>
+                    <p class="card-text">Colour : Brown</p>
+                    <p class="card-text">Age : Young</p>
+                  </div>
+                  <div class="col">
+                    <p class="card-text">Weight : 2kg</p>
+                    <p class="card-text">Sex : Male</p>
+                  </div>
+                </div>
+            </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Adopt Me?</button>
+      </div>
       </div>
     </div>
   </div>
@@ -210,24 +222,36 @@ to Elevate the status of pets to that of family member</p>
 
 <!-- modal boby.. -->
 <div class="modal fade" id="boby" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Facts About Me</h5>
+        <h4 class="modal-title" id="exampleModalLabel">Facts About Me</h4>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-      <p class="modal-text"></p>
-      <p class="modal-text-center">Breed  : Domestic cat</p>
-        <p class="modal-text">Colour : Orange</p>
-        <p class="modal-text">Age    : Young</p>
-        <p class="modal-text">Weight : 6 kg</p>
-        <p class="modal-text">Sex    : female</p>
-
+      <div class="card">
+            <img src="assets/img/boby.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title mb-3">Boby!</h4>
+              <p class="card-text">Hi there!  Boby is a very sweet, loving, and smart girl. Boby is smart and motivated - she wants to do a good job and likes to learn. She has a number of cat friends she plays well with, she’s great with kids, friends, and family. We’ve started a family: we have a toddler and 2 month old infant.</p>
+              <h5 class="card-title mb-3">My Info!</h5>
+                <div class="row align-items-start">
+                  <div class="col">
+                    <p class="card-text">Breed : Domestic Cat</p>
+                    <p class="card-text">Colour : Orange</p>
+                    <p class="card-text">Age : Young</p>
+                  </div>
+                  <div class="col">
+                    <p class="card-text">Weight : 3kg</p>
+                    <p class="card-text">Sex : Female</p>
+                  </div>
+                </div>
+            </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Adopt me?</button>
+        <a href="/adoptme"><button type="button" class="btn btn-primary">Adopt me?</button></a>
+      </div>
       </div>
     </div>
   </div>
@@ -235,44 +259,74 @@ to Elevate the status of pets to that of family member</p>
 
 <!-- modal Arthur.. -->
 <div class="modal fade" id="Arthur" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Facts About Me</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-      <p class="modal-text"></p>
-        <p class="modal-text-center">Breed  : Snowshoe</p>
-        <p class="modal-text">Colour : Brown with White</p>
-        <p class="modal-text">Age    : Young</p>
-        <p class="modal-text">Weight : 10 kg</p>
-        <p class="modal-text">Sex    : Male</p>
-    </div>
-      <div class="modal-footer">
+      <div class="card">
+            <img src="assets/img/arthur.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title mb-3">Arthur!</h4>
+              <p class="card-text">He's got the looks, he's got the vibe, he's got it all! And then some. Arthur is more fun than a barrel of monkeys, especially if you are into high-energy and endlessly enthusiastic young cats.
+              He has shown great potential and is quick to learn, especially if you have yummy treats. If you have experience with energetic adolescents and want a full-time buddy, Arthur the happy little cannonball just might be the perfect match.
+              </p>
+                  <h5 class="card-title mb-3">My Info!</h5>
+                <div class="row align-items-start">
+                  <div class="col">
+                    <p class="card-text">Breed : Snowshoe</p>
+                    <p class="card-text">Colour : Brown with White</p>
+                    <p class="card-text">Age : Young</p>
+                  </div>
+                  <div class="col">
+                    <p class="card-text">Weight : 5kg</p>
+                    <p class="card-text">Sex : Male</p>
+                  </div>
+                </div>
+            </div>
+      </div>
+        <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Adopt me?</button>
       </div>
     </div>
   </div>
 </div>
+</div>
+
+
 
 <!-- modal stiff -->
-<div class="modal fade" id="Stiff" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+<div class="modal fade" id="stiff" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Facts About Me</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-      <p class="modal-text"></p>
-      <p class="modal-text-center">Breed  : Beagle</p>
-        <p class="modal-text">Colour : Brown-White-Black</p>
-        <p class="modal-text">Age    : Young</p>
-        <p class="modal-text">Weight : 8 kg</p>
-        <p class="modal-text">Sex    : male</p>
-
+      <div class="card">
+            <img src="assets/img/stiff.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title mb-3">Stiff!</h4>
+              <p class="card-text">He's got the looks, he's got the vibe, he's got it all! And then some. Arthur is more fun than a barrel of monkeys, especially if you are into high-energy and endlessly enthusiastic young cats.
+              He has shown great potential and is quick to learn, especially if you have yummy treats. If you have experience with energetic adolescents and want a full-time buddy, Arthur the happy little cannonball just might be the perfect match.
+              </p>
+              <h5 class="card-title mb-3">My Info!</h5>
+                <div class="row align-items-start">
+                  <div class="col">
+                    <p class="card-text">Breed : Snowshoe</p>
+                    <p class="card-text">Colour : Brown with White</p>
+                    <p class="card-text">Age : Young</p>
+                  </div>
+                  <div class="col">
+                    <p class="card-text">Weight : 5kg</p>
+                    <p class="card-text">Sex : Male</p>
+                  </div>
+                </div>
+            </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -280,24 +334,38 @@ to Elevate the status of pets to that of family member</p>
       </div>
     </div>
   </div>
+</div>
 </div>
 
 <!-- modal Valen -->
 <div class="modal fade" id="valen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Facts About Me</h5>
+        <h3 class="modal-title" id="exampleModalLabel">Facts About Me</h3>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-      <p class="modal-text"></p>
-      <p class="modal-text-center">Breed  : Boston Terriere</p>
-        <p class="modal-text">Colour : Brown- White</p>
-        <p class="modal-text">Age    : Young</p>
-        <p class="modal-text">Weight : 8,5 kg</p>
-        <p class="modal-text">Sex    : Female</p>
-
+      <div class="card-body">
+              <img src="assets/img/valen.jpg" class="card-img-top" alt="...">
+              <h4 class="card-title mb-3">Valen!</h4>
+              <p class="card-text">Valen is a good dog. She is well behaved in the house. She's sweet and affectionate and loves all humans.
+              She can be good with other dogs if given the opportunity to properly introduce another dog. Public places where dogs are off leash aren't a good option generally.
+              Valen needs a home where there's not a lot of change. She would do best in a single family home with outdoor space.
+              </p>
+                  <h5 class="card-title mb-3">My Info!</h5>
+                <div class="row align-items-start">
+                  <div class="col">
+                    <p class="card-text">Breed : Boston Terriere</p>
+                    <p class="card-text">Colour : Brown-White</p>
+                    <p class="card-text">Age : Young</p>
+                  </div>
+                  <div class="col">
+                    <p class="card-text">Weight : 8,5kg</p>
+                    <p class="card-text">Sex : Female</p>
+                  </div>
+                </div>
+            </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -305,24 +373,43 @@ to Elevate the status of pets to that of family member</p>
       </div>
     </div>
   </div>
+</div>
 </div>
 
 <!-- modal puffy -->
 <div class="modal fade" id="puffy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Facts About Me</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-      <p class="modal-text"></p>
+      <div class="card-body">
+              <img src="assets/img/puffy.jpg" class="card-img-top" alt="...">
+              <h4 class="card-title mb-3">Puffy!</h4>
+              <p class="card-text">Puffy loves to cuddle, lay on laps, and be wherever his owner is. Puffy is black and has been very loving with our baby, toddler, and other dog.
+              He is house trained, comes when called, walks on leash, and can sit on command. We have been caring for Bruno for several weeks for a family member who is no longer able to keep him but need to find him a forever home.
+              </p>
+                  <h5 class="card-title mb-3">My Info!</h5>
+                <div class="row align-items-start">
+                  <div class="col">
+                    <p class="card-text">Breed : Kintamani Dog</p>
+                    <p class="card-text">Colour : Black</p>
+                    <p class="card-text">Age : Young</p>
+                  </div>
+                  <div class="col">
+                    <p class="card-text">Weight : 7kg</p>
+                    <p class="card-text">Sex : Male</p>
+                  </div>
+                </div>
+            </div>
+      <!-- <p class="modal-text"></p>
       <p class="modal-text-center">Breed  : Kintamani dog</p>
         <p class="modal-text">Colour : Black</p>
         <p class="modal-text">Age    : Young</p>
         <p class="modal-text">Weight : 7 kg</p>
-        <p class="modal-text">Sex    : male</p>
-
+        <p class="modal-text">Sex    : male</p> -->
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -331,22 +418,41 @@ to Elevate the status of pets to that of family member</p>
     </div>
   </div>
 </div>
+</div>
 
 <!-- modal yemia -->
 <div class="modal fade" id="yemia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Facts About Me</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-      <p class="modal-text"></p>
+      <div class="card-body">
+              <img src="assets/img/yemia.jpg" class="card-img-top" alt="...">
+              <h4 class="card-title mb-3">Yemia!</h4>
+              <p class="card-text">Yemia is friendly, beautiful, playful, and has a strong deep bark. She lives toys. Yemia have 
+              </p>
+                  <h5 class="card-title mb-3">My Info!</h5>
+                <div class="row align-items-start">
+                  <div class="col">
+                    <p class="card-text">Breed : Moggy</p>
+                    <p class="card-text">Colour : Black-White</p>
+                    <p class="card-text">Age : Young</p>
+                  </div>
+                  <div class="col">
+                    <p class="card-text">Weight : 5kg</p>
+                    <p class="card-text">Sex : Female</p>
+                  </div>
+                </div>
+            </div>
+       <!-- <p class="modal-text"></p>
       <p class="modal-text-center">Breed  : Moggy</p>
         <p class="modal-text">Colour : Black-White</p>
         <p class="modal-text">Age    : Young</p>
         <p class="modal-text">Weight : 5 kg</p>
-        <p class="modal-text">Sex    : Female</p>
+        <p class="modal-text">Sex    : Female</p> -->
 
       </div>
       <div class="modal-footer">
@@ -356,6 +462,86 @@ to Elevate the status of pets to that of family member</p>
     </div>
   </div>
 </div>
+
+
+<!-- modal Gery -->
+<div class="modal fade" id="gery" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Facts About Me</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <div class="card-body">
+            <img src="assets/img/gery4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title mb-3">Gery!</h4>
+              <p class="card-text">Gery is a very handsome boy that is looking for a home! He is energetic, cheerful and loves children. 
+                Every day, we take Gery for a walk in the park so he can socialize with many people, including children
+              </p>
+                  <h5 class="card-title mb-3">My Info!</h5>
+                <div class="row align-items-start">
+                  <div class="col">
+                    <p class="card-text">Breed : Beagle</p>
+                    <p class="card-text">Colour : Brown with White</p>
+                    <p class="card-text">Age : Young</p>
+                  </div>
+                  <div class="col">
+                    <p class="card-text">Weight : 4kg</p>
+                    <p class="card-text">Sex : Male</p>
+                  </div>
+                </div>
+            </div>
+      </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Adopt me?</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- modal oci -->
+<div class="modal fade" id="oci" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Facts About Me</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <div class="card-body">
+            <img src="assets/img/oci.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title mb-3">Oci!</h4>
+              <p class="card-text">Oci is a very adorable boy! ciko really likes crowds, he is energetic and can mingle with many people. 
+                Ciko also has many dog ​​friends. Ciko has a cold allergy. So we have to give him more attention.
+              </p>
+                  <h5 class="card-title mb-3">My Info!</h5>
+                <div class="row align-items-start">
+                  <div class="col">
+                    <p class="card-text">Breed : Pudel</p>
+                    <p class="card-text">Colour : Brown</p>
+                    <p class="card-text">Age : Young</p>
+                  </div>
+                  <div class="col">
+                    <p class="card-text">Weight : 4,5kg</p>
+                    <p class="card-text">Sex : Male</p>
+                  </div>
+                </div>
+            </div>
+      </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Adopt me?</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
 
 
 

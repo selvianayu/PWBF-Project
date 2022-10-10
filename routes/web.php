@@ -22,3 +22,19 @@ Route::get('/adoption', function () {
     return view('adoption');
 });
 
+// Route::get('/Home', function () {
+//     return view('Home');
+// });
+
+
+Route::get('/signIn', function () {
+    return view('signIn');
+});
+
+Route::get('/signUp', function () {
+    return view('signUp');
+});
+
+Route::get('/adoptme', function () {
+    return view('adoptme');
+});
