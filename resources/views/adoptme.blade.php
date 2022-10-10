@@ -1,100 +1,124 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <!-- Required meta tags-->
-    <meta charset="UTF-8">
+  <head>
+  	<title>adopt me</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Colorlib Templates">
-    <meta name="author" content="Colorlib">
-    <meta name="keywords" content="Colorlib Templates">
 
-    <!-- Title Page-->
-    <title>adopt me?</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
 
-    <!-- Icons font CSS-->
-    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
-    <!-- Font special for pages-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/styleSignUp.css">
 
-    <!-- Vendor CSS-->
-    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
-    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+	</head>
+	<body>
 
-    <!-- Main CSS-->
-    <link href="css/mainadoptme.css" rel="stylesheet" media="all">
-</head>
-<body>
-    <div class="page-wrapper bg-red p-t-180 p-b-100 font-robo">
-        <div class="wrapper wrapper--w960">
-            <div class="card card-2">
-                <div class="card-heading"></div>
-                <div class="card-body">
-                    <h2 class="title">Registration Info</h2>
-                    <form method="POST">
-                        <div class="input-group">
-                            <input class="input--style-2" type="text" placeholder="Name" name="name">
-                        </div>
-                        <div class="row row-space">
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <input class="input--style-2 js-datepicker" type="text" placeholder="Birthdate" name="birthday">
-                                    <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
-                                </div>
-                            </div>
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <div class="rs-select2 js-select-simple select--no-search">
-                                        <select name="gender">
-                                            <option disabled="disabled" selected="selected">Gender</option>
-                                            <option>Male</option>
-                                            <option>Female</option>
-                                            <option>Other</option>
-                                        </select>
-                                        <div class="select-dropdown"></div>
+
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-10">
+					<div class="wrap d-md-flex">
+						<div class="text-wrap p-4 p-lg-5 d-flex img d-flex align-items-end" style="background-image: url('assets/img/adopt.jpg');">
+							<div class="text w-100">
+								<h2 class="mb-1">Helo! Fill in this form for adoption</h2>
+								<p>If you are logged in, then all you have to do is fill in your address and pick-up date for your favorite animal.</p>
+							</div>
+			      </div>
+						<div class="login-wrap p-4 p-md-5">
+	      			<h2 class="mb-3">Form for Adoption</h2>
+							<form action="#" class="signup-form">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="form-group d-flex align-items-center">
+					      			<label class="label" for="name">Full Name</label>
+					      			<input type="text" class="form-control" placeholder="Full Name">
+					      		</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group d-flex align-items-center">
+					      			<label class="label" for="email">Email Address</label>
+					      			<input type="text" class="form-control" placeholder="your-email@email.com">
+					      		</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group d-flex align-items-center">
+					      			<label class="label" for="phone">Phone no.</label>
+					      			<input type="text" class="form-control" placeholder="+62">
+					      		</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group d-flex align-items-center">
+					      			<label class="label" for="email">Username</label>
+					      			<input type="text" class="form-control" placeholder="Your Username">
+					      		</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group d-flex align-items-center">
+				            	<label class="label" for="password">Password</label>
+				              <input type="password" class="form-control" placeholder="Password">
+				            </div>
+									</div>
+                                <div class="col-md-12">
+									<div class="form-group d-flex align-items-center">
+				            	        <label class="label" for="address">Address</label>
+				                        <input type="password" class="form-control" placeholder="Your Address">
+				                    </div>
+								</div>
+                                <div class="col-md-12">
+									<div class="form-group d-flex align-items-center ">
+				            	        <label class="label" for="datepick">Date to Pick Up</label>
+                                    <div class="col-md-10">
+                                        <input type="date" class="form-control">
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="input-group">
-                            <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="class">
-                                    <option disabled="disabled" selected="selected">Class</option>
-                                    <option>Class 1</option>
-                                    <option>Class 2</option>
-                                    <option>Class 3</option>
-                                </select>
-                                <div class="select-dropdown"></div>
-                            </div>
-                        </div>
-                        <div class="row row-space">
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <input class="input--style-2" type="text" placeholder="Registration Code" name="res_code">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-t-30">
-                            <button class="btn btn--radius btn--green" type="submit">Search</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+				                    </div>
+                                    </div>
+                                
+								
+                                    </div>
+                                
+									<!-- <div class="col-md-12 my-4">
+										<div class="form-group">
+                                
+                                
+				            	<div class="w-100">
+					            	<label class="checkbox-wrap checkbox-primary">I agree all statements in terms of service
+												  <input type="checkbox" checked>
+												  <span class="checkmark"></span>
+												</label>
+											</div>
+				            </div>
+									</div> -->
+									<div class="col-md-12">
+									<div class="modal-footer">
+										<div class="form-group d-flex align-items-center">	
+				            			<a href="/adoptme"><button type="submit" class="btn btn-dark rounded-pill p-3" data-bs-dismiss="modal" aria-label="Adopt">Adopt</button></a>							
+				           			 	</div>
+									</div>
+									<!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href="/adoptme"><button type="button" class="btn btn-primary">Adopt me?</button></a> -->
+      </div>
+								</div>
 
-    <!-- Jquery JS-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <!-- Vendor JS-->
-    <script src="vendor/select2/select2.min.js"></script>
-    <script src="vendor/datepicker/moment.min.js"></script>
-    <script src="vendor/datepicker/daterangepicker.js"></script>
+		          </form>
+		        </div>
+		      </div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- Main JS-->
-    <script src="js/globaladoptme.js"></script>
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrapSignUp.min.js"></script>
+  <script src="js/mainSignUp.js"></script>
 
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
-
+	</body>
 </html>
-<!-- end document-->
+
