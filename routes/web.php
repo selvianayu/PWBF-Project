@@ -38,3 +38,24 @@ Route::get('/signUp', function () {
 Route::get('/adoptme', function () {
     return view('adoptme');
 });
+
+Route::get('/dashboardadm', function () {
+    return view('dashboardadm');
+});
+
+Route::get('/FormUpdate', function () {
+    return view('FormUpdate');
+});
+
+Route::get('/TableUser', function () {
+    return view('TableUser');
+});
+
+Route::get('/TablePet', function () {
+    return view('TablePet');
+});
+
+Route::get('/Report', function () {
+    return view('Report');
+});
+
