@@ -69,7 +69,7 @@
                         <hr class="divider divider-light" />
                         <p class="text-white-75 mb-4">Find Your Pets is an online shelter that uses Internet technology and resources to produce searchable animals that need homes, Increase public awareness of the availability of adoptable pets, and
 to Elevate the status of pets to that of family member</p>
-                      
+
                     </div>
                 </div>
             </div>
@@ -80,14 +80,14 @@ to Elevate the status of pets to that of family member</p>
                 <h2 class="text-center mt-0">Adoption</h2>
                 <hr class="divider" />
                 <div class="row gx-4 gx-lg-5 d-flex justify-content-center">
-                  
+
 <div class="row">
   <div class="col-sm-4">
     <div class="card">
         <img src="assets/img/boby.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Boby</h5>
-        <p class="card-text">Hello My Name is Boby!</p>
+        <h5 class="card-title">{{$kucing->name}}</h5>
+        <p class="card-text">Hello My Name is {{$kucing->name}}</p>
         <a class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#boby">Read more</a>
       </div>
     </div>
@@ -232,25 +232,32 @@ to Elevate the status of pets to that of family member</p>
       <div class="card">
             <img src="assets/img/boby.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h4 class="card-title mb-3">Boby!</h4>
-              <p class="card-text">Hi there!  Boby is a very sweet, loving, and smart girl. Boby is smart and motivated - she wants to do a good job and likes to learn. She has a number of cat friends she plays well with, she’s great with kids, friends, and family. We’ve started a family: we have a toddler and 2 month old infant.</p>
+              <h4 class="card-title mb-3">{{ $kucing->name}}!</h4>
+              <p class="card-text">Deskripsi dari {{ $kucing->name }}</p>
               <h5 class="card-title mb-3">My Info!</h5>
                 <div class="row align-items-start">
                   <div class="col">
-                    <p class="card-text">Breed : Domestic Cat</p>
-                    <p class="card-text">Colour : Orange</p>
-                    <p class="card-text">Age : Young</p>
+                    <p class="card-text">Breed : {{ $kucing->breed }}</p>
+                    <p class="card-text">Colour : {{ $kucing->colour }}</p>
+                    <p class="card-text">Age : {{ $kucing->age }}</p>
                   </div>
                   <div class="col">
-                    <p class="card-text">Weight : 3kg</p>
-                    <p class="card-text">Sex : Female</p>
+                    <p class="card-text">Weight : {{ $kucing->weight }}kg</p>
+                    <p class="card-text">Sex : 
+                        @if ($kucing->sex == true)
+                            Male
+                        @else
+                            Female
+                        @endif
+
+                    </p>
                   </div>
                 </div>
             </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <a href="/adoptme"><button type="button" class="btn btn-primary">Adopt me?</button></a>
+        <a href="/signIn"><button type="button" class="btn btn-primary">Adopt me?</button></a>
       </div>
       </div>
     </div>
@@ -289,7 +296,7 @@ to Elevate the status of pets to that of family member</p>
       </div>
         <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Adopt me?</button>
+        <a href="/adoptme"><button type="button" class="btn btn-primary">Adopt me?</button></a>
       </div>
     </div>
   </div>
@@ -432,7 +439,7 @@ to Elevate the status of pets to that of family member</p>
       <div class="card-body">
               <img src="assets/img/yemia.jpg" class="card-img-top" alt="...">
               <h4 class="card-title mb-3">Yemia!</h4>
-              <p class="card-text">Yemia is friendly, beautiful, playful, and has a strong deep bark. She lives toys. Yemia have 
+              <p class="card-text">Yemia is friendly, beautiful, playful, and has a strong deep bark. She lives toys. Yemia have
               </p>
                   <h5 class="card-title mb-3">My Info!</h5>
                 <div class="row align-items-start">
@@ -477,7 +484,7 @@ to Elevate the status of pets to that of family member</p>
             <img src="assets/img/gery4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h4 class="card-title mb-3">Gery!</h4>
-              <p class="card-text">Gery is a very handsome boy that is looking for a home! He is energetic, cheerful and loves children. 
+              <p class="card-text">Gery is a very handsome boy that is looking for a home! He is energetic, cheerful and loves children.
                 Every day, we take Gery for a walk in the park so he can socialize with many people, including children
               </p>
                   <h5 class="card-title mb-3">My Info!</h5>
@@ -516,7 +523,7 @@ to Elevate the status of pets to that of family member</p>
             <img src="assets/img/oci.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h4 class="card-title mb-3">Oci!</h4>
-              <p class="card-text">Oci is a very adorable boy! ciko really likes crowds, he is energetic and can mingle with many people. 
+              <p class="card-text">Oci is a very adorable boy! ciko really likes crowds, he is energetic and can mingle with many people.
                 Ciko also has many dog ​​friends. Ciko has a cold allergy. So we have to give him more attention.
               </p>
                   <h5 class="card-title mb-3">My Info!</h5>
@@ -549,7 +556,7 @@ to Elevate the status of pets to that of family member</p>
   <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    
+
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
@@ -596,7 +603,7 @@ to Elevate the status of pets to that of family member</p>
                             <div class="form-floating mb-3">
                             <input type="file" class="form-control" id="file">
                             </div>
-                            
+
                             <!-- Submit success message-->
                             <!---->
                             <!-- This is what your users will see when the form-->
@@ -639,7 +646,7 @@ to Elevate the status of pets to that of family member</p>
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 
-                           
+
             </div>
         </section>
         <!-- Portfolio-->
@@ -701,7 +708,7 @@ to Elevate the status of pets to that of family member</p>
                     <p>5. Brush Your Pets Regularly</p>
                     <p>6. Use Baking Soda to Clean Your Pet Beds</p>
                     <p>7. Scoop & Clean the Litter Box (More Often Than You Think)</p>
-                
+
                   </div>
                 </div>
               </div>
@@ -887,11 +894,11 @@ to Elevate the status of pets to that of family member</p>
             </div>
         </div> -->
         <!-- Call to action-->
-        <section class="page-section bg-dark text-white">
+        <!-- <section class="page-section bg-dark text-white">
             <div class="container px-4 px-lg-5 text-center">
-             
+
             </div>
-        </section>
+        </section> -->
         <!-- Contact-->
         <!-- <section class="page-section" id="contact">
             <div class="container px-4 px-lg-5">
@@ -912,20 +919,20 @@ to Elevate the status of pets to that of family member</p>
                         <!-- https://startbootstrap.com/solution/contact-forms-->
                         <!-- to get an API token!-->
                         <!-- <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            
+
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
                                 <label for="name">Full name</label>
                                 <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>
-                         
+
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
                                 <label for="email">Email address</label>
                                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
-                            
+
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
                                 <label for="phone">Phone number</label>
@@ -938,7 +945,7 @@ to Elevate the status of pets to that of family member</p>
                                 <label for="message">Message</label>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
-                            
+
 
 
                             <div class="d-none" id="submitSuccessMessage">
@@ -949,11 +956,11 @@ to Elevate the status of pets to that of family member</p>
                                     <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                                 </div>
                             </div>
-                          
+
 
 
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                         
+
 
                             <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
                         </form>
@@ -967,7 +974,7 @@ to Elevate the status of pets to that of family member</p>
                 </div>
             </div>
         </section>
-        
+
         <footer class="bg-light py-5">
             <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2022 - Company Name</div></div>
         </footer> -->

@@ -478,7 +478,7 @@
                                     <td>adopted</td>
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
-                                    <a href="#" class="btn btn-warning">Add</a><td>
+                                    <a href="#" class="btn btn-warning">Edit</a><td>
                                
                                 </tr>
                                 <tr>
@@ -491,7 +491,7 @@
                                     <td>adopted</td>
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
-                                    <a href="#" class="btn btn-warning">Add</a><td>
+                                    <a href="#" class="btn btn-warning">Edit</a><td>
                                
                                 </tr>
                                 <tr>
@@ -504,7 +504,7 @@
                                     <td>adopted</td>
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
-                                    <a href="#" class="btn btn-warning">Add</a><td>
+                                    <a href="#" class="btn btn-warning">Edit</a><td>
                                
                                 </tr>
                                 <tr>
@@ -517,7 +517,7 @@
                                     <td>adopted</td>
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
-                                    <a href="#" class="btn btn-warning">Add</a><td>
+                                    <a href="#" class="btn btn-warning">Edit</a><td>
                                
                                 </tr>
                                 <tr>
@@ -530,7 +530,7 @@
                                     <td>adopted</td>
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
-                                    <a href="#" class="btn btn-warning">Add</a><td>
+                                    <a href="#" class="btn btn-warning">Edit</a><td>
                                
                                 </tr>
                                 <tr>
@@ -543,7 +543,7 @@
                                     <td>adopted</td>
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
-                                    <a href="#" class="btn btn-warning">Add</a><td>
+                                    <a href="#" class="btn btn-warning">Edit</a><td>
                                
                                 </tr>
                                 <tr>
@@ -556,7 +556,7 @@
                                     <td>adopted</td>
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
-                                    <a href="#" class="btn btn-warning">Add</a><td>
+                                    <a href="#" class="btn btn-warning">Edit</a><td>
                                
                                 </tr>
                             </tbody>

@@ -404,12 +404,12 @@
                         </form>
                     </div>
                 
-                <div class="row gx-4 gx-lg-5 justify-content-center">
+                <!-- <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-4 text-center mb-5 mb-lg-0">
                         <i class="bi bi-phone fs-2 mb-3" style="color: #fff;"></i>
                         <div class="text-light"></div>
                     </div>
-                </div>
+                </div> -->
             </div>
                 
         </section>

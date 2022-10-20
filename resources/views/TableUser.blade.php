@@ -478,7 +478,7 @@
                                     
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
-                                    <a href="#" class="btn btn-warning">Add</a><td>
+                                    <!-- <a href="#" class="btn btn-warning">Add</a><td> -->
                                 </tr>
                                 <tr>
                                     <td><input class="form-check-input" type="checkbox"></td>
@@ -491,7 +491,7 @@
                                     
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
-                                    <a href="#" class="btn btn-warning">Add</a><td>
+                                    <!-- <a href="#" class="btn btn-warning">Add</a><td> -->
                                 </tr>
                                 <tr>
                                     <td><input class="form-check-input" type="checkbox"></td>
@@ -504,7 +504,7 @@
                                     
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
-                                    <a href="#" class="btn btn-warning">Add</a><td>
+                                    <!-- <a href="#" class="btn btn-warning">Add</a><td> -->
                                 </tr>
                                 <tr>
                                     <td><input class="form-check-input" type="checkbox"></td>
@@ -517,7 +517,7 @@
                                     
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
-                                    <a href="#" class="btn btn-warning">Add</a><td>
+                                    <!-- <a href="#" class="btn btn-warning">Add</a><td> -->
                                 </tr>
                                 <tr>
                                     <td><input class="form-check-input" type="checkbox"></td>
@@ -530,7 +530,7 @@
                                     
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
-                                    <a href="#" class="btn btn-warning">Add</a><td>
+                                    <!-- <a href="#" class="btn btn-warning">Add</a><td> -->
                                 </tr>
                                 <tr>
                                     <td><input class="form-check-input" type="checkbox"></td>
@@ -543,7 +543,7 @@
                                     
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
-                                    <a href="#" class="btn btn-warning">Add</a><td>
+                                    <!-- <a href="#" class="btn btn-warning">Add</a><td> -->
                                 </tr>
                                 <tr>
                                     <td><input class="form-check-input" type="checkbox"></td>
@@ -556,7 +556,7 @@
                                     
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
-                                    <a href="#" class="btn btn-warning">Add</a><td>
+                                    <!-- <a href="#" class="btn btn-warning">Add</a><td> -->
                                 </tr>
                                 </tr>
                             </tbody>
