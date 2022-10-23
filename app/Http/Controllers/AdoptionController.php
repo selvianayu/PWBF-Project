@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Hewan;
-use App\Http\Requests\StoreHewanRequest;
-use App\Http\Requests\UpdateHewanRequest;
+use App\Models\Adoption;
+use App\Http\Requests\StoreAdoptionRequest;
+use App\Http\Requests\UpdateAdoptionRequest;
 
-class HewanController extends Controller
+class AdoptionController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,15 +15,7 @@ class HewanController extends Controller
      */
     public function index()
     {
-        return view('home', [
-            'hewans' => Hewan::all()
-        ]);
-    }
-
-    public function table(){
-        return view('TablePet', [
-            'hewans' => Hewan::all()
-        ]);
+        //
     }
 
     /**
@@ -39,10 +31,10 @@ class HewanController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \App\Http\Requests\StoreHewanRequest  $request
+     * @param  \App\Http\Requests\StoreAdoptionRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoreHewanRequest $request)
+    public function store(StoreAdoptionRequest $request)
     {
         //
     }
@@ -50,10 +42,10 @@ class HewanController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Hewan  $hewan
+     * @param  \App\Models\Adoption  $adoption
      * @return \Illuminate\Http\Response
      */
-    public function show(Hewan $hewan)
+    public function show(Adoption $adoption)
     {
         //
     }
@@ -61,10 +53,10 @@ class HewanController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Hewan  $hewan
+     * @param  \App\Models\Adoption  $adoption
      * @return \Illuminate\Http\Response
      */
-    public function edit(Hewan $hewan)
+    public function edit(Adoption $adoption)
     {
         //
     }
@@ -72,11 +64,11 @@ class HewanController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdateHewanRequest  $request
-     * @param  \App\Models\Hewan  $hewan
+     * @param  \App\Http\Requests\UpdateAdoptionRequest  $request
+     * @param  \App\Models\Adoption  $adoption
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdateHewanRequest $request, Hewan $hewan)
+    public function update(UpdateAdoptionRequest $request, Adoption $adoption)
     {
         //
     }
@@ -84,10 +76,10 @@ class HewanController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Hewan  $hewan
+     * @param  \App\Models\Adoption  $adoption
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Hewan $hewan)
+    public function destroy(Adoption $adoption)
     {
         //
     }

@@ -82,12 +82,64 @@ to Elevate the status of pets to that of family member</p>
                 <div class="row gx-4 gx-lg-5 d-flex justify-content-center">
 
 <div class="row">
+      @foreach($hewans as $hewan)
+      <div class="col-sm-4">
+          <div class="card">
+              <img src="assets/img/{{$hewan->name}}.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text">Hello My Name is {{$hewan->name}}</p>
+              <a class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#{{$hewan->name}}">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- all modal -->
+        <div class="modal fade" id="{{$hewan->name}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Facts About Me</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+              <div class="card">
+                    <img src="assets/img/{{$hewan->name}}.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title mb-3">{{$hewan->name}}!</h4>
+                      <p class="card-text">Well hello there! My name is {{$hewan->name}}! I’m a very handsome boy that is looking for a home! I am currently at shelter! I get to go into playgroup everyday and play with many dogs! it’s seriously the BEST! I’m not sure what my past life was, but I lived in a shelter for 10 months?</p>
+                      <h5 class="card-title mb-3">My Info!</h5>
+                        <div class="row align-items-start">
+                          <div class="col">
+                            <p class="card-text">Breed : {{$hewan->breed}}</p>
+                            <p class="card-text">Colour : {{$hewan->colour}}</p>
+                            <p class="card-text">Age : {{$hewan->age}}</p>
+                          </div>
+                          <div class="col">
+                            <p class="card-text">Weight : {{$hewan->weight}}kg</p>
+                            <p class="card-text">Sex : {{$hewan->sex == true ? 'male' : 'female'}}</p>
+                          </div>
+                        </div>
+                    </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Adopt Me?</button>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      @endforeach
+</div>
+               
+<!-- <div class="row">
   <div class="col-sm-4">
     <div class="card">
         <img src="assets/img/boby.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">{{$kucing->name}}</h5>
-        <p class="card-text">Hello My Name is {{$kucing->name}}</p>
+        <h5 class="card-title"></h5>
+        <p class="card-text">Hello My Name is </p>
         <a class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#boby">Read more</a>
       </div>
     </div>
@@ -180,11 +232,11 @@ to Elevate the status of pets to that of family member</p>
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
 <!-- modal ciko.. -->
-<div class="modal fade" id="ciko" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="ciko" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
@@ -218,10 +270,10 @@ to Elevate the status of pets to that of family member</p>
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- modal boby.. -->
-<div class="modal fade" id="boby" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="boby" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
@@ -232,23 +284,19 @@ to Elevate the status of pets to that of family member</p>
       <div class="card">
             <img src="assets/img/boby.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h4 class="card-title mb-3">{{ $kucing->name}}!</h4>
-              <p class="card-text">Deskripsi dari {{ $kucing->name }}</p>
+              <h4 class="card-title mb-3">!</h4>
+              <p class="card-text">Deskripsi dari </p>
               <h5 class="card-title mb-3">My Info!</h5>
                 <div class="row align-items-start">
                   <div class="col">
-                    <p class="card-text">Breed : {{ $kucing->breed }}</p>
-                    <p class="card-text">Colour : {{ $kucing->colour }}</p>
-                    <p class="card-text">Age : {{ $kucing->age }}</p>
+                    <p class="card-text">Breed : </p>
+                    <p class="card-text">Colour : </p>
+                    <p class="card-text">Age : </p>
                   </div>
                   <div class="col">
-                    <p class="card-text">Weight : {{ $kucing->weight }}kg</p>
+                    <p class="card-text">Weight : kg</p>
                     <p class="card-text">Sex : 
-                        @if ($kucing->sex == true)
-                            Male
-                        @else
-                            Female
-                        @endif
+                        
 
                     </p>
                   </div>
@@ -262,10 +310,10 @@ to Elevate the status of pets to that of family member</p>
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- modal Arthur.. -->
-<div class="modal fade" id="Arthur" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="Arthur" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
@@ -301,12 +349,12 @@ to Elevate the status of pets to that of family member</p>
     </div>
   </div>
 </div>
-</div>
+</div> -->
 
 
 
 <!-- modal stiff -->
-<div class="modal fade" id="stiff" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="stiff" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
@@ -342,10 +390,10 @@ to Elevate the status of pets to that of family member</p>
     </div>
   </div>
 </div>
-</div>
+</div> -->
 
 <!-- modal Valen -->
-<div class="modal fade" id="valen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="valen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
@@ -381,10 +429,10 @@ to Elevate the status of pets to that of family member</p>
     </div>
   </div>
 </div>
-</div>
+</div> -->
 
 <!-- modal puffy -->
-<div class="modal fade" id="puffy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="puffy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
@@ -411,12 +459,12 @@ to Elevate the status of pets to that of family member</p>
                   </div>
                 </div>
             </div>
-      <!-- <p class="modal-text"></p>
+      <p class="modal-text"></p>
       <p class="modal-text-center">Breed  : Kintamani dog</p>
         <p class="modal-text">Colour : Black</p>
         <p class="modal-text">Age    : Young</p>
         <p class="modal-text">Weight : 7 kg</p>
-        <p class="modal-text">Sex    : male</p> -->
+        <p class="modal-text">Sex    : male</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -425,10 +473,10 @@ to Elevate the status of pets to that of family member</p>
     </div>
   </div>
 </div>
-</div>
+</div> -->
 
 <!-- modal yemia -->
-<div class="modal fade" id="yemia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="yemia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
@@ -454,12 +502,12 @@ to Elevate the status of pets to that of family member</p>
                   </div>
                 </div>
             </div>
-       <!-- <p class="modal-text"></p>
+       <p class="modal-text"></p>
       <p class="modal-text-center">Breed  : Moggy</p>
         <p class="modal-text">Colour : Black-White</p>
         <p class="modal-text">Age    : Young</p>
         <p class="modal-text">Weight : 5 kg</p>
-        <p class="modal-text">Sex    : Female</p> -->
+        <p class="modal-text">Sex    : Female</p>
 
       </div>
       <div class="modal-footer">
@@ -468,11 +516,11 @@ to Elevate the status of pets to that of family member</p>
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
 <!-- modal Gery -->
-<div class="modal fade" id="gery" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="gery" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
@@ -508,10 +556,10 @@ to Elevate the status of pets to that of family member</p>
     </div>
   </div>
 </div>
-</div>
+</div> -->
 
 <!-- modal oci -->
-<div class="modal fade" id="oci" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="oci" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
@@ -547,7 +595,7 @@ to Elevate the status of pets to that of family member</p>
     </div>
   </div>
 </div>
-</div>
+</div> -->
 
 
 

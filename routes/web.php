@@ -51,11 +51,13 @@ Route::get('/TableUser', function () {
     return view('TableUser');
 });
 
-Route::get('/TablePet', function () {
-    return view('TablePet');
-});
+Route::get('/TablePet', [HewanController::class, 'table']);
 
 Route::get('/Report', function () {
     return view('Report');
+});
+
+Route::get('/Profile', function () {
+    return view('Profile');
 });
 

@@ -60,27 +60,13 @@
                 </div>
                 <div class="navbar-nav w-100">
                     <a href="dashboardadm" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
-                    <!-- <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i></a>
-                        <div class="dropdown-menu bg-transparent border-0">
-                            <a href="button.html" class="dropdown-item">Buttons</a>
-                            <a href="typography.html" class="dropdown-item">Typography</a>
-                            <a href="element.html" class="dropdown-item">Other Elements</a>
-                        </div>
-                    </div> -->
+                    <a href="Profile" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Profile</a>
                     <a href="Report" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Reports</a>
                     <a href="FormUpdate" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Up Information</a>
                     <a href="TableUser" class="nav-item nav-link"><i class="fa fa-table me-2"></i>User Tables</a>
                     <a href="TablePet" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Pet Tables</a>
-                    <!-- <a href="chart.html" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Charts</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="far fa-file-alt me-2"></i>Pages</a>
-                        <div class="dropdown-menu bg-transparent border-0">
-                            <a href="signin.html" class="dropdown-item">Sign In</a>
-                            <a href="signup.html" class="dropdown-item">Sign Up</a>
-                            <a href="404.html" class="dropdown-item">404 Error</a>
-                            <a href="blank.html" class="dropdown-item">Blank Page</a>
-                        </div> -->
+                  
+             
                     </div>
                 </div>
             </nav>
@@ -103,48 +89,12 @@
                 </form>
                 <div class="navbar-nav align-items-center ms-auto">
                     <div class="nav-item dropdown">
-                        <!-- <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                            <i class="fa fa-envelope me-lg-2"></i>
-                            <span class="d-none d-lg-inline-flex">Message</span>
-                        </a> -->
-                        <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
-                            <a href="#" class="dropdown-item">
-                                <div class="d-flex align-items-center">
-                                    <img class="rounded-circle" src="assets/img/Rian.jpg" alt="" style="width: 40px; height: 40px;">
-                                    <div class="ms-2">
-                                        <h6 class="fw-normal mb-0">Rian send you a message</h6>
-                                        <small>15 minutes ago</small>
-                                    </div>
-                                </div>
-                            </a>
-                            <hr class="dropdown-divider">
-                            <a href="#" class="dropdown-item">
-                                <div class="d-flex align-items-center">
-                                    <img class="rounded-circle" src="assets/img/admreyhan.jpg" alt="" style="width: 40px; height: 40px;">
-                                    <div class="ms-2">
-                                        <h6 class="fw-normal mb-0">Jhoe send you a message</h6>
-                                        <small>15 minutes ago</small>
-                                    </div>
-                                </div>
-                            </a>
-                            <hr class="dropdown-divider">
-                            <a href="#" class="dropdown-item">
-                                <div class="d-flex align-items-center">
-                                    <img class="rounded-circle" src="assets/img/Zaenab.jpg" alt="" style="width: 40px; height: 40px;">
-                                    <div class="ms-2">
-                                        <h6 class="fw-normal mb-0">Zaenab send you a message</h6>
-                                        <small>15 minutes ago</small>
-                                    </div>
-                                </div>
-                            </a>
-                            <hr class="dropdown-divider">
-                            <a href="#" class="dropdown-item text-center">See all message</a>
-                        </div>
+                     
                     </div>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                             <i class="fa fa-bell me-lg-2"></i>
-                            <span class="d-none d-lg-inline-flex">Notificatin</span>
+                            <span class="d-none d-lg-inline-flex">Notification</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
                             <a href="#" class="dropdown-item">
@@ -171,7 +121,7 @@
                             <span class="d-none d-lg-inline-flex">Reyhan</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
-                            <a href="#" class="dropdown-item">My Profile</a>
+                            <a href="#Profile" class="dropdown-item">My Profile</a>
                             <a href="#" class="dropdown-item">Settings</a>
                             <a href="#" class="dropdown-item">Log Out</a>
                         </div>
@@ -279,7 +229,7 @@
                                     <td>Jhon Doe</td>
                                     <!-- <td>$123</td> -->
                                     <td>adopt cat</td>
-                                    <td><a class="btn btn-sm btn-secondary" href="">Detail</a></td>
+                                    <td><a class="btn btn-sm btn-secondary" data-bs-toggle="modal" data-bs-target="#jhon">Detail</a></td>
                                 </tr>
                                 <tr>
                                     <td><input class="form-check-input" type="checkbox"></td>
@@ -288,7 +238,7 @@
                                     <td>Zaenab Asegaf</td>
                                     <!-- <td>Adopt Dog</td> -->
                                     <td>Adopt dog</td>
-                                    <td><a class="btn btn-sm btn-secondary" href="">Detail</a></td>
+                                    <td><a class="btn btn-sm btn-secondary" data-bs-toggle="modal" data-bs-target="#zaenab">Detail</a></td>
                                 </tr>
                                 <tr>
                                 <td><input class="form-check-input" type="checkbox"></td>
@@ -297,7 +247,7 @@
                                     <td>Julia Swan</td>
                                     <!-- <td>$123</td> -->
                                     <td>adopt cat</td>
-                                    <td><a class="btn btn-sm btn-secondary" href="">Detail</a></td>
+                                    <td><a class="btn btn-sm btn-secondary" data-bs-toggle="modal" data-bs-target="#julia">Detail</a></td>
                                 </tr>
                                 <tr>
                                 <td><input class="form-check-input" type="checkbox"></td>
@@ -307,6 +257,7 @@
                                     <!-- <td>$123</td> -->
                                     <td>adopt cat</td>
                                     <td><a class="btn btn-sm btn-secondary" href="">Detail</a></td>
+                                    
                                 </tr>
                                 <tr>
                                 <td><input class="form-check-input" type="checkbox"></td>
@@ -368,70 +319,55 @@
                 </div>
             </div>
             <!-- Recent Sales End -->
+            
+            <!-- modal detail jhon -->
+            <div class="modal fade" id="jhon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Detail Info!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <div class="card">
+           
+            <div class="card-body">
+              <h4 class="card-title mb-3">Biodata</h4>
+              <div class="row align-items-start">
+                  <div class="col">
+                    <p class="card-text">Breed : Domestic Cat</p>
+                    <p class="card-text">Colour : Brown</p>
+                    <p class="card-text">Age : Young</p>
+                    <p class="card-text"></p>
+                  </div>
+                  <div class="col">
+                    <p class="card-text">Weight : 2kg</p>
+                    <p class="card-text">Sex : Male</p>
+                  </div>
+              <h4 class="card-title mb-3">Adoption History</h4>
+                <div class="row align-items-start">
+                  <div class="col">
+                    <p class="card-text">Breed : Domestic Cat</p>
+                    <p class="card-text">Colour : Brown</p>
+                    <p class="card-text">Age : Young</p>
+                  </div>
+                  <div class="col">
+                    <p class="card-text">Weight : 2kg</p>
+                    <p class="card-text">Sex : Male</p>
+                  </div>
+                </div>
+            </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
-            <!-- Widgets Start -->
-            <!-- <div class="container-fluid pt-4 px-4">
-                <div class="row g-4">
-                    <div class="col-sm-12 col-md-6 col-xl-4">
-                        <div class="h-100 bg-light rounded p-4">
-                            <div class="d-flex align-items-center justify-content-between mb-2">
-                                <h6 class="mb-0">Messages</h6>
-                                <a href="">Show All</a>
-                            </div>
-                            <div class="d-flex align-items-center border-bottom py-3">
-                                <img class="rounded-circle flex-shrink-0" src="assets/img/admreyhan.jpg" alt="" style="width: 40px; height: 40px;">
-                                <div class="w-100 ms-3">
-                                    <div class="d-flex w-100 justify-content-between">
-                                        <h6 class="mb-0">Jhoe</h6>
-                                        <small>15 minutes ago</small>
-                                    </div>
-                                    <span>Short message goes here...</span>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center border-bottom py-3">
-                                <img class="rounded-circle flex-shrink-0" src="assets/img/rian.jpg" alt="" style="width: 40px; height: 40px;">
-                                <div class="w-100 ms-3">
-                                    <div class="d-flex w-100 justify-content-between">
-                                        <h6 class="mb-0">Rian</h6>
-                                        <small>15 minutes ago</small>
-                                    </div>
-                                    <span>Short message goes here...</span>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center border-bottom py-3">
-                                <img class="rounded-circle flex-shrink-0" src="assets/img/zaenab.jpg" alt="" style="width: 40px; height: 40px;">
-                                <div class="w-100 ms-3">
-                                    <div class="d-flex w-100 justify-content-between">
-                                        <h6 class="mb-0">zaenab</h6>
-                                        <small>15 minutes ago</small>
-                                    </div>
-                                    <span>Short message goes here...</span>
-                                </div>
-                            </div> -->
-                            <!-- <div class="d-flex align-items-center pt-3">
-                                <img class="rounded-circle flex-shrink-0" src="img/user.jpg" alt="" style="width: 40px; height: 40px;">
-                                <div class="w-100 ms-3">
-                                    <div class="d-flex w-100 justify-content-between">
-                                        <h6 class="mb-0">Jhon Doe</h6>
-                                        <small>15 minutes ago</small>
-                                    </div>
-                                    <span>Short message goes here...</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                    </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-xl-4">
-                        <div class="h-100 bg-light rounded p-4">
-                            <div class="d-flex align-items-center justify-content-between mb-4">
-                                <h6 class="mb-0">Calender</h6>
-                                <a href="">Show All</a>
-                            </div>
-                            <div id="calender"></div>
-                        </div>
-                    </div>
                     <!-- <div class="col-sm-12 col-md-6 col-xl-4">
                         <div class="h-100 bg-light rounded p-4">
                             <div class="d-flex align-items-center justify-content-between mb-4">

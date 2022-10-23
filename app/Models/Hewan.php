@@ -9,9 +9,16 @@ class Hewan extends Model
 {
     use HasFactory;
 
-    public function Hewans()
+    public function kategori()
     {
         return $this->belongsTo(Kategori::class);
     }
+
+    public function Adoption()
+    {
+        return $this->belongsTo(Adoption::class);
+    }
+
+    
 
 }

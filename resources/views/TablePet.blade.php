@@ -468,97 +468,21 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                @foreach($hewans as $hewan)
                                 <tr>
                                     <td><input class="form-check-input" type="checkbox"></td>
-                                    <td>0001</td>
+                                    <td>{{$loop->iteration}}</td>
                                     <!-- <td>INV-0123</td> -->
-                                    <td>Boby</td>
+                                    <td>{{$hewan->name}}</td>
                                     <!-- <td>$123</td> -->
-                                    <td>Persian</td>
+                                    <td>{{$hewan->breed}}</td>
                                     <td>adopted</td>
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
                                     <a href="#" class="btn btn-warning">Edit</a><td>
-                               
                                 </tr>
-                                <tr>
-                                    <td><input class="form-check-input" type="checkbox"></td>
-                                    <td>0001</td>
-                                    <!-- <td>INV-0123</td> -->
-                                    <td>Boby</td>
-                                    <!-- <td>$123</td> -->
-                                    <td>Persian</td>
-                                    <td>adopted</td>
-                                    <td><a class="btn-group">
-                                    <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
-                                    <a href="#" class="btn btn-warning">Edit</a><td>
-                               
-                                </tr>
-                                <tr>
-                                    <td><input class="form-check-input" type="checkbox"></td>
-                                    <td>0001</td>
-                                    <!-- <td>INV-0123</td> -->
-                                    <td>Boby</td>
-                                    <!-- <td>$123</td> -->
-                                    <td>Persian</td>
-                                    <td>adopted</td>
-                                    <td><a class="btn-group">
-                                    <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
-                                    <a href="#" class="btn btn-warning">Edit</a><td>
-                               
-                                </tr>
-                                <tr>
-                                    <td><input class="form-check-input" type="checkbox"></td>
-                                    <td>0001</td>
-                                    <!-- <td>INV-0123</td> -->
-                                    <td>Boby</td>
-                                    <!-- <td>$123</td> -->
-                                    <td>Persian</td>
-                                    <td>adopted</td>
-                                    <td><a class="btn-group">
-                                    <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
-                                    <a href="#" class="btn btn-warning">Edit</a><td>
-                               
-                                </tr>
-                                <tr>
-                                    <td><input class="form-check-input" type="checkbox"></td>
-                                    <td>0001</td>
-                                    <!-- <td>INV-0123</td> -->
-                                    <td>Boby</td>
-                                    <!-- <td>$123</td> -->
-                                    <td>Persian</td>
-                                    <td>adopted</td>
-                                    <td><a class="btn-group">
-                                    <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
-                                    <a href="#" class="btn btn-warning">Edit</a><td>
-                               
-                                </tr>
-                                <tr>
-                                    <td><input class="form-check-input" type="checkbox"></td>
-                                    <td>0001</td>
-                                    <!-- <td>INV-0123</td> -->
-                                    <td>Boby</td>
-                                    <!-- <td>$123</td> -->
-                                    <td>Persian</td>
-                                    <td>adopted</td>
-                                    <td><a class="btn-group">
-                                    <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
-                                    <a href="#" class="btn btn-warning">Edit</a><td>
-                               
-                                </tr>
-                                <tr>
-                                    <td><input class="form-check-input" type="checkbox"></td>
-                                    <td>0001</td>
-                                    <!-- <td>INV-0123</td> -->
-                                    <td>Boby</td>
-                                    <!-- <td>$123</td> -->
-                                    <td>Persian</td>
-                                    <td>adopted</td>
-                                    <td><a class="btn-group">
-                                    <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
-                                    <a href="#" class="btn btn-warning">Edit</a><td>
-                               
-                                </tr>
+                                @endforeach
+                                
                             </tbody>
                         </table>
                     </div>
