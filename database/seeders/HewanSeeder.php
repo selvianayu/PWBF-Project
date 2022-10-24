@@ -17,7 +17,7 @@ class HewanSeeder extends Seeder
     {
         DB::table('hewans')->insert([
             'name' => 'Boby',
-            'breed' => 'Dom',
+            'breed' => 'Domestic',
             'colour' => 'yellow',
             'age' => 'young',
             'weight' => 5,

@@ -19,6 +19,12 @@ class HewanController extends Controller
             'hewans' => Hewan::all()
         ]);
     }
+    // public function anjing()
+    // {
+    //     return view('anjing', [
+    //         'anjing' => Hewan::all()
+    //     ]);
+    // }
 
     public function table(){
         return view('TablePet', [

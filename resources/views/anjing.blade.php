@@ -717,15 +717,13 @@ to Elevate the status of pets to that of family member</p>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <h4 class="mb-10 font-extra-bold desktop:mb-25 subheader text-h3 desktop:text-h2">How to improve your pet's mood</h2>
-                    {{-- <h4 class="card-title">How to improve your pet's mood</h4> --}}
+                    <h4 class="card-title">How to improve your pet's mood</h4>
                     <p>You can tell when your pet is joyful,your pet wags her tail excitedly as you approach the pet park, your cat curls up next to you and purrs. And it's true, animals have moods too. With both dogs and cats, exercise is essential for staying physically and emotionally healthy. </p>
                   </div>
                 </div>
               </div>
             </div>
           </div><!-- End Card Item -->
-
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card-item">
               <div class="row">
@@ -738,10 +736,9 @@ to Elevate the status of pets to that of family member</p>
                     <p>Vaccines are preventative rather than curative. Vaccinations protect your pet from several highly contagious diseases such as canine distemper, parvovirus infection and respiratory tract infections. It also protects against transmissible diseases such as rabies that also pose a risk to humans.</p>
                   </div>
                 </div>
-                </div>
               </div>
             </div>
-          </div> <!-- End Card Item -->
+          </div><!-- End Card Item -->
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="card-item">
