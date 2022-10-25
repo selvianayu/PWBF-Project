@@ -11,14 +11,14 @@ class Hewan extends Model
 
     public function kategori()
     {
-        return $this->belongsTo(Kategori::class);
+        return $this->belongsTo(Kategori::class, 'kategoris_id');
     }
 
     public function Adoption()
     {
-        return $this->belongsTo(Adoption::class);
+        return $this->belongsTo(Adoption::class, 'kategoris_id');
     }
 
-    
+
 
 }
