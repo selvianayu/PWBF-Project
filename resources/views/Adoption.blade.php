@@ -59,13 +59,13 @@
                     </div>
                 </div>
                 <div class="navbar-nav w-100">
-                    <a href="dashboardadm" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
-                    <a href="Profile" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Profile</a>
-                    <a href="Report" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Reports</a>
+                    <a href="dashboardadm" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+                    <a href="Profile" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Profile</a>
+                    <a href="Report" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Report</a>
                     <a href="FormUpdate" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Up Information</a>
-                    <a href="TableUser" class="nav-item nav-link"><i class="fa fa-table me-2"></i>User Tables</a>
-                    <a href="TablePet" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Pet Tables</a>
-                    <a href="Adoption" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Adoption</a>
+                    <a href="TableUser" class="nav-item nav-link active"><i class="fa fa-table me-2"></i>User Tables</a>
+                    <a href="TablePet" class="nav-item nav-link active"><i class="fa fa-table me-2"></i>Pet Tables</a>
+                    <a href="Adoption" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Adoption</a>
                         </div>
                     </div>
                 </div>
@@ -436,7 +436,7 @@
             <div class="container-fluid pt-4 px-4">
                 <div class="bg-light text-center rounded p-4">
                     <div class="d-flex align-items-center justify-content-between mb-4">
-                        <h6 class="mb-0">Pet Table</h6>
+                        <h6 class="mb-0">Adoption Table</h6>
                         <a href="">Show All</a>
                     </div>
                     <div class="table-responsive">
@@ -444,32 +444,11 @@
                             <thead>
                                 <tr class="text-dark">
                                     <th scope="col"><input class="form-check-input" type="checkbox"></th>
-                                    <th scope="col">Code</th>
+                                    <th scope="col">User id</th>
                                     <!-- <th scope="col">Invoice</th> -->
-                                    <th scope="col">Name</th>
-                                    <!-- <th scope="col">Amount</th> -->
-                                    <th scope="col">Breed</th>
-                                    <th scope="col">Status</th>
-                                    <th scope="col">Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @foreach($hewans as $hewan)
-                                <tr>
-                                    <td><input class="form-check-input" type="checkbox"></td>
-                                    <td>{{$loop->iteration}}</td>
-                                    <!-- <td>INV-0123</td> -->
-                                    <td>{{$hewan->name}}</td>
-                                    <!-- <td>$123</td> -->
-                                    <td>{{$hewan->breed}}</td>
-                                    <td>adopted</td>
-                                    <td><a class="btn-group">
-                                    <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
-                                    <a href="#" class="btn btn-warning">Edit</a><td>
-                                </tr>
-                                @endforeach
+                                    <th scope="col">Hewan id</th>
 
-                            </tbody>
+                                </tr>
                         </table>
                     </div>
                 </div>
@@ -477,21 +456,21 @@
 
 
             <!-- Footer Start -->
-            <div class="container-fluid pt-4 px-4">
+            <!-- <div class="container-fluid pt-4 px-4">
                 <div class="bg-light rounded-top p-4">
                     <div class="row">
                         <div class="col-12 col-sm-6 text-center text-sm-start">
                             &copy; <a href="#">Your Site Name</a>, All Right Reserved.
                         </div>
-                        <div class="col-12 col-sm-6 text-center text-sm-end">
+                        <div class="col-12 col-sm-6 text-center text-sm-end"> -->
                             <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                            Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+                            <!-- Designed By <a href="https://htmlcodex.com">HTML Codex</a>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- Footer End -->
-        </div>
+        <!-- </div> -->
         <!-- Content End -->
 
 

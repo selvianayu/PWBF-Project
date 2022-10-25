@@ -61,3 +61,11 @@ Route::get('/Profile', function () {
     return view('Profile');
 });
 
+Route::get('/Profile', function () {
+    return view('Profile');
+});
+
+Route::get('/Adoption', function () {
+    return view('Adoption');
+});
+

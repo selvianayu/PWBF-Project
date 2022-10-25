@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
+
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -59,27 +59,13 @@
                     </div>
                 </div>
                 <div class="navbar-nav w-100">
-                    <a href="dashboardadm" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
-                    <!-- <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i>Elements</a>
-                        <div class="dropdown-menu bg-transparent border-0">
-                            <a href="button.html" class="dropdown-item">Buttons</a>
-                            <a href="typography.html" class="dropdown-item">Typography</a>
-                            <a href="element.html" class="dropdown-item">Other Elements</a>
-                        </div>
-                    </div> -->
-                    <a href="Report" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Report</a>
+                    <a href="dashboardadm" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+                    <a href="Profile" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Profile</a>
+                    <a href="Report" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Reports</a>
                     <a href="FormUpdate" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Up Information</a>
-                    <a href="TableUser" class="nav-item nav-link active"><i class="fa fa-table me-2"></i>User Tables</a>
-                    <a href="TablePet" class="nav-item nav-link active"><i class="fa fa-table me-2"></i>Pet Tables</a>
-                    <!-- <a href="chart.html" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Charts</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="far fa-file-alt me-2"></i>Pages</a>
-                        <div class="dropdown-menu bg-transparent border-0">
-                            <a href="signin.html" class="dropdown-item">Sign In</a>
-                            <a href="signup.html" class="dropdown-item">Sign Up</a>
-                            <a href="404.html" class="dropdown-item">404 Error</a>
-                            <a href="blank.html" class="dropdown-item">Blank Page</a> -->
+                    <a href="TableUser" class="nav-item nav-link"><i class="fa fa-table me-2"></i>User Tables</a>
+                    <a href="TablePet" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Pet Tables</a>
+                    <a href="Adoption" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Adoption</a>
                         </div>
                     </div>
                 </div>
@@ -178,7 +164,7 @@
                     </div>
                 </div>
             </nav>
-          
+
 <!-- table user 1 -->
             <div class="container-fluid pt-4 px-4">
                 <div class="bg-light text-center rounded p-4">
@@ -209,7 +195,7 @@
                                     <!-- <td>$123</td> -->
                                     <td>085865624720</td>
                                     <td><a class="btn btn-sm btn-secondary" data-bs-toggle="modal" data-bs-target="#revita">Detail</a></td>
-                                    
+
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
                                     <a href="#" class="btn btn-warning">Edit</a><td>
@@ -222,7 +208,7 @@
                                     <!-- <td>$123</td> -->
                                     <td>085865624720</td>
                                     <td><a class="btn btn-sm btn-secondary" href="">Detail</a></td>
-                                    
+
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
                                     <a href="#" class="btn btn-warning">Edit</a><td>
@@ -235,7 +221,7 @@
                                     <!-- <td>$123</td> -->
                                     <td>085865624720</td>
                                     <td><a class="btn btn-sm btn-secondary" href="">Detail</a></td>
-                                    
+
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
                                     <a href="#" class="btn btn-warning">Edit</a><td>
@@ -248,7 +234,7 @@
                                     <!-- <td>$123</td> -->
                                     <td>085865624720</td>
                                     <td><a class="btn btn-sm btn-secondary" href="">Detail</a></td>
-                                    
+
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
                                     <a href="#" class="btn btn-warning">Edit</a><td>
@@ -261,7 +247,7 @@
                                     <!-- <td>$123</td> -->
                                     <td>085865624720</td>
                                     <td><a class="btn btn-sm btn-secondary" href="">Detail</a></td>
-                                    
+
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
                                     <a href="#" class="btn btn-warning">Edit</a><td>
@@ -274,7 +260,7 @@
                                     <!-- <td>$123</td> -->
                                     <td>085865624720</td>
                                     <td><a class="btn btn-sm btn-secondary" href="">Detail</a></td>
-                                    
+
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
                                     <a href="#" class="btn btn-warning">Edit</a><td>
@@ -287,7 +273,7 @@
                                     <!-- <td>$123</td> -->
                                     <td>085865624720</td>
                                     <td><a class="btn btn-sm btn-secondary" href="">Detail</a></td>
-                                    
+
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
                                     <a href="#" class="btn btn-warning">Edit</a><td>
@@ -311,7 +297,7 @@
       </div>
       <div class="modal-body">
       <div class="card">
-           
+
             <div class="card-body">
               <h4 class="card-title mb-3">Biodata</h4>
               <div class="row align-items-start">
@@ -341,7 +327,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-       
+
       </div>
       </div>
     </div>
@@ -355,7 +341,7 @@
                 <div class="bg-light rounded-top p-4">
                     <div class="row">
                         <div class="col-12 col-sm-6 text-center text-sm-start">
-                            &copy; <a href="#">Your Site Name</a>, All Right Reserved. 
+                            &copy; <a href="#">Your Site Name</a>, All Right Reserved.
                         </div>
                         <div class="col-12 col-sm-6 text-center text-sm-end"> -->
                             <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
