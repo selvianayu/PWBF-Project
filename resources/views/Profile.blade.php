@@ -59,10 +59,10 @@
                     </div>
                 </div>
                 <div class="navbar-nav w-100">
-                    <a href="dashboardadm" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
-                    <a href="Profile" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Profile</a>
-                    <a href="Report" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Reports</a>
-                    <a href="FormUpdate" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Up Information</a>
+                <a href="dashboardadm" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+                    <a href="Profile" class="nav-item nav-link"><i class="bi bi-person-fill me-2 "></i>Profile</a>
+                    <a href="Report" class="nav-item nav-link"><i class="bi bi-file-earmark-text-fill me-2"></i>Reports</a>
+                    <a href="FormUpdate" class="nav-item nav-link"><i class="bi bi-arrow-up-circle-fill me-2"></i>Up Information</a>
                     <a href="TableUser" class="nav-item nav-link"><i class="fa fa-table me-2"></i>User Tables</a>
                     <a href="TablePet" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Pet Tables</a>
                     <a href="Adoption" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Adoption</a>
@@ -121,8 +121,8 @@
                             <span class="d-none d-lg-inline-flex">Reyhan</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
-                            <a href="#" class="dropdown-item">Settings</a>
-                            <a href="#" class="dropdown-item">Log Out</a>
+
+                            <a href="/" class="dropdown-item">Log Out</a>
                         </div>
                     </div>
                 </div>
@@ -141,12 +141,12 @@
 				        	<img src="assets/img/admreyhan.jpg" alt="" style="width: 80px; height: 80px;">
 				            </div>
 				            <h5 class="user-name"></h5>
-                            <h5 class="user-name">Yuki Hayashi</h5>
-				            <h6 class="user-email">yuki@Maxwell.com</h6>
+                            <h5 class="user-name">Reyhan</h5>
+				            <p>reyhan@gmail.com</p>
 			                </div>
 			                <div class="about">
 			            	<h5>About</h5>
-			            	<p>I'm Yuki. Full Stack Designer I enjoy creating user-centric, delightful and human experiences.</p>
+			            	<p>I'm Reyhan. Full Stack Designer I enjoy creating user-centric, delightful and human experiences.</p>
 		                	</div>
 		                    </div>
 	                        </div>
@@ -213,6 +213,7 @@
 				</div>
 			</div>
 		</div>
+        <div class="container-fluid pt-4 px-4">
 		<div class="row gutters">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 				<div class="text-right">
@@ -227,28 +228,24 @@
 </div>
 </div>
 
-
-
-
-
             <!-- Footer Start -->
-            <div class="container-fluid pt-4 px-4">
+            <!-- <div class="container-fluid pt-4 px-4">
                 <div class="bg-light rounded-top p-4">
                     <div class="row">
                         <div class="col-12 col-sm-6 text-center text-sm-start">
                             &copy; <a href="#">Your Site Name</a>, All Right Reserved.
                         </div>
-                        <div class="col-12 col-sm-6 text-center text-sm-end">
+                        <div class="col-12 col-sm-6 text-center text-sm-end"> -->
                             <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                            Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+                            <!-- Designed By <a href="https://htmlcodex.com">HTML Codex</a>
                         </br>
                         Distributed By <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- Footer End -->
-        </div>
+        <!-- </div> -->
         <!-- Content End -->
 
 

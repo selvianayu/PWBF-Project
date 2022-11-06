@@ -60,9 +60,9 @@
                 </div>
                 <div class="navbar-nav w-100">
                     <a href="dashboardadm" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
-                    <a href="Profile" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Profile</a>
-                    <a href="Report" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Reports</a>
-                    <a href="FormUpdate" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Up Information</a>
+                    <a href="Profile" class="nav-item nav-link"><i class="bi bi-person-fill me-2 "></i>Profile</a>
+                    <a href="Report" class="nav-item nav-link"><i class="bi bi-file-earmark-text-fill me-2"></i>Reports</a>
+                    <a href="FormUpdate" class="nav-item nav-link"><i class="bi bi-arrow-up-circle-fill me-2"></i>Up Information</a>
                     <a href="TableUser" class="nav-item nav-link"><i class="fa fa-table me-2"></i>User Tables</a>
                     <a href="TablePet" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Pet Tables</a>
                     <a href="Adoption" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Adoption</a>
@@ -122,9 +122,8 @@
                             <span class="d-none d-lg-inline-flex">Reyhan</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
-                            <a href="#Profile" class="dropdown-item">My Profile</a>
-                            <a href="#" class="dropdown-item">Settings</a>
-                            <a href="#" class="dropdown-item">Log Out</a>
+                            <!-- <a href="#" class="dropdown-item">Settings</a> -->
+                            <a href="/" class="dropdown-item">Log Out</a>
                         </div>
                     </div>
                 </div>
@@ -162,45 +161,10 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-sm-6 col-xl-3">
-                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
-                            <i class="fa fa-chart-pie fa-3x text-primary"></i>
-                            <div class="ms-3">
-                                <p class="mb-2">Total Revenue</p>
-                                <h6 class="mb-0">$1234</h6>
-                            </div>
-                        </div>
-                    </div> -->
+                   
                 </div>
             </div>
-            <!-- Sale & Revenue End -->
-
-
-            <!-- Sales Chart Start -->
-            <!-- <div class="container-fluid pt-4 px-4">
-                <div class="row g-4">
-                    <div class="col-sm-12 col-xl-6">
-                        <div class="bg-light text-center rounded p-4">
-                            <div class="d-flex align-items-center justify-content-between mb-4">
-                                <h6 class="mb-0">Pets Adopted </h6>
-                                <a href="">Show All</a>
-                            </div>
-                            <canvas id="worldwide-sales"></canvas>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-xl-6">
-                        <div class="bg-light text-center rounded p-4">
-                            <div class="d-flex align-items-center justify-content-between mb-4">
-                                <h6 class="mb-0">Salse & Revenue</h6>
-                                <a href="">Show All</a>
-                            </div>
-                            <canvas id="salse-revenue"></canvas>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <!-- Sales Chart End -->
-
+           
 
             <!-- Recent Sales Start -->
             <div class="container-fluid pt-4 px-4">
@@ -269,51 +233,9 @@
                                     <td>adopt cat</td>
                                     <td><a class="btn btn-sm btn-secondary" href="">Detail</a></td>
                                 </tr>
-                                <tr>
-                                    <td><input class="form-check-input" type="checkbox"></td>
-                                    <td>20 Feb 2022</td>
-                                    <!-- <td>INV-0123</td> -->
-                                    <td>Reicya Asegaf</td>
-                                    <!-- <td>Adopt Dog</td> -->
-                                    <td>Adopt dog</td>
-                                    <td><a class="btn btn-sm btn-secondary" href="">Detail</a></td>
-                                </tr>
-                                <tr>
-                                    <td><input class="form-check-input" type="checkbox"></td>
-                                    <td>25 Feb 2022</td>
-                                    <!-- <td>INV-0123</td> -->
-                                    <td>Susan Sameh</td>
-                                    <!-- <td>Adopt Dog</td> -->
-                                    <td>Adopt dog</td>
-                                    <td><a class="btn btn-sm btn-secondary" href="">Detail</a></td>
-                                </tr>
-                                <tr>
-                                    <td><input class="form-check-input" type="checkbox"></td>
-                                    <td>15 Jan 2022</td>
-                                    <!-- <td>INV-0123</td> -->
-                                    <td>Zaenab Asegaf</td>
-                                    <!-- <td>Adopt Dog</td> -->
-                                    <td>Adopt dog</td>
-                                    <td><a class="btn btn-sm btn-secondary" href="">Detail</a></td>
-                                </tr>
-                                <tr>
-                                    <td><input class="form-check-input" type="checkbox"></td>
-                                    <td>15 Jan 2022</td>
-                                    <!-- <td>INV-0123</td> -->
-                                    <td>Zaenab Asegaf</td>
-                                    <!-- <td>Adopt Dog</td> -->
-                                    <td>Adopt dog</td>
-                                    <td><a class="btn btn-sm btn-secondary" href="">Detail</a></td>
-                                </tr>
-                                <tr>
-                                    <td><input class="form-check-input" type="checkbox"></td>
-                                    <td>15 Jan 2022</td>
-                                    <!-- <td>INV-0123</td> -->
-                                    <td>Zaenab Asegaf</td>
-                                    <!-- <td>Adopt Dog</td> -->
-                                    <td>Adopt dog</td>
-                                    <td><a class="btn btn-sm btn-secondary" href="">Detail</a></td>
-                                </tr>
+                               
+                                
+                               
                             </tbody>
                         </table>
                     </div>
@@ -336,29 +258,95 @@
               <h4 class="card-title mb-3">Biodata</h4>
               <div class="row align-items-start">
                   <div class="col">
-                    <p class="card-text">Breed : Domestic Cat</p>
-                    <p class="card-text">Colour : Brown</p>
-                    <p class="card-text">Age : Young</p>
+                    <p class="card-text">Nama : </p>
+                    <p class="card-text">Alamat:</p>
+                    <p class="card-text">Email : </p>
                     <p class="card-text"></p>
                   </div>
                   <div class="col">
-                    <p class="card-text">Weight : 2kg</p>
-                    <p class="card-text">Sex : Male</p>
+                    <p class="card-text">Phone Numbert : </p>
+                    <p class="card-text">Sex : </p>
                   </div>
               <h4 class="card-title mb-3">Adoption History</h4>
-                <div class="row align-items-start">
-                  <div class="col">
-                    <p class="card-text">Breed : Domestic Cat</p>
-                    <p class="card-text">Colour : Brown</p>
-                    <p class="card-text">Age : Young</p>
-                  </div>
-                  <div class="col">
-                    <p class="card-text">Weight : 2kg</p>
-                    <p class="card-text">Sex : Male</p>
-                  </div>
+              <div class="container-fluid pt-4 px-4">
+                <div class="bg-light text-center rounded p-4">
+                    <div class="d-flex align-items-center justify-content-between mb-4">
+                        <h6 class="mb-0">Adoption Table</h6>
+                        <a href="">Show All</a>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table text-start align-middle table-bordered table-hover mb-0">
+                            <thead>
+                                <tr class="text-dark">
+                                    <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                                    <th scope="col">adoption code</th>
+                                    <th scope="col">User id</th>
+                                    <!-- <th scope="col">Invoice</th> -->
+                                    <th scope="col">Hewan id</th>
+                                    <th scope="col">Date</th>
+
+                                </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="zaenab" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Detail Info!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <div class="card">
+
+            <div class="card-body">
+              <h4 class="card-title mb-3">Biodata</h4>
+              <div class="row align-items-start">
+                  <div class="col">
+                    <p class="card-text">Nama : </p>
+                    <p class="card-text">Alamat:</p>
+                    <p class="card-text">Email : </p>
+                    <p class="card-text"></p>
+                  </div>
+                  <div class="col">
+                    <p class="card-text">Phone Numbert : </p>
+                    <p class="card-text">Sex : </p>
+                  </div>
+              <h4 class="card-title mb-3">Adoption History</h4>
+              <div class="container-fluid pt-4 px-4">
+                <div class="bg-light text-center rounded p-4">
+                    <div class="d-flex align-items-center justify-content-between mb-4">
+                        <h6 class="mb-0">Adoption Table</h6>
+                        <a href="">Show All</a>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table text-start align-middle table-bordered table-hover mb-0">
+                            <thead>
+                                <tr class="text-dark">
+                                    <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                                    <th scope="col">adoption code</th>
+                                    <th scope="col">User id</th>
+                                    <!-- <th scope="col">Invoice</th> -->
+                                    <th scope="col">Hewan id</th>
+                                    <th scope="col">Date</th>
+
+                                </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 
@@ -432,23 +420,23 @@
 
 
             <!-- Footer Start -->
-            <div class="container-fluid pt-4 px-4">
+            <!-- <div class="container-fluid pt-4 px-4">
                 <div class="bg-light rounded-top p-4">
                     <div class="row">
                         <div class="col-12 col-sm-6 text-center text-sm-start">
                             &copy; <a href="#">Your Site Name</a>, All Right Reserved.
                         </div>
-                        <div class="col-12 col-sm-6 text-center text-sm-end">
+                        <div class="col-12 col-sm-6 text-center text-sm-end"> -->
                             <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                            Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+                            <!-- Designed By <a href="https://htmlcodex.com">HTML Codex</a>
                         </br>
                         Distributed By <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- Footer End -->
-        </div>
+        <!-- </div> -->
         <!-- Content End -->
 
 
