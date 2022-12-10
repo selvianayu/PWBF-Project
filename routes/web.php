@@ -41,31 +41,15 @@ Route::get('/adoptme', [adoptmeController::class, 'index']);
 Route::group(['middleware'=>['auth','role:admin']],function (){
 Route::get('/dashboardadm', [dashboardadmController::class, 'index']);
 
-
 Route::get('/FormUpdate', [FormUpdateController::class, 'index']);
 
-
-// Route::get('/TableUser', [TableUserController::class, 'index']);
 Route::get('/TableUser', [TableUserController::class, 'table']);
-// Route::get('/TableUser', function () {
-//     return view('TableUser');
-// });
 
 Route::get('/TablePet', [HewanController::class, 'table']);
 
 Route::get('/Report', [ReportController::class, 'index']);
-// Route::get('/Report', function () {
-//     return view('Report');
-// });
 
 Route::get('/Profile', [ProfileController::class, 'index']);
-// Route::get('/Profile', function () {
-//     return view('Profile');
-// });
-
-// Route::get('/Profile', function () {
-//     return view('Profile');
-// });
 
 // Route::get('/Adoption', [AdoptionController::class, 'index']);
 Route::get('/Adoption', function () {

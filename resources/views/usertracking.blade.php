@@ -1,59 +1,92 @@
-<section class="vh-100" style="background-color: #35558a;">
+<html>
+<head>
+    <link href="css/usertracking.css" rel="stylesheet">
+</head>
+<body>
+<section class="h-100 h-custom" style="background-color: #eee;">
     <div class="container py-5 h-100">
-      <div class="row d-flex justify-content-center align-items-center h-100 text-center">
-        <div class="col">
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-light btn-lg" data-mdb-toggle="modal"
-            data-mdb-target="#exampleModal">
-            <i class="fas fa-info me-2"></i> Get information
-          </button>
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-lg-8 col-xl-6">
+          <div class="card border-top border-bottom border-3" style="border-color: #f37a27 !important;">
+            <div class="card-body p-5">
 
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header border-bottom-0">
-                  <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+              <p class="lead fw-bold mb-5" style="color: #f37a27;">Purchase Reciept</p>
+
+              <div class="row">
+                <div class="col mb-3">
+                  <p class="small text-muted mb-1">Date</p>
+                  <p>10 April 2021</p>
                 </div>
-                <div class="modal-body text-start text-black p-4">
-                  <h5 class="modal-title text-uppercase mb-5" id="exampleModalLabel">Johnatan Miller</h5>
-                  <h4 class="mb-5" style="color: #35558a;">Thanks for your order</h4>
-                  <p class="mb-0" style="color: #35558a;">Payment summary</p>
-                  <hr class="mt-2 mb-4"
-                    style="height: 0; background-color: transparent; opacity: .75; border-top: 2px dashed #9e9e9e;">
-
-                  <div class="d-flex justify-content-between">
-                    <p class="fw-bold mb-0">Ether Chair(Qty:1)</p>
-                    <p class="text-muted mb-0">$1750.00</p>
-                  </div>
-
-                  <div class="d-flex justify-content-between">
-                    <p class="small mb-0">Shipping</p>
-                    <p class="small mb-0">$175.00</p>
-                  </div>
-
-                  <div class="d-flex justify-content-between pb-1">
-                    <p class="small">Tax</p>
-                    <p class="small">$200.00</p>
-                  </div>
-
-                  <div class="d-flex justify-content-between">
-                    <p class="fw-bold">Total</p>
-                    <p class="fw-bold" style="color: #35558a;">$2125.00</p>
-                  </div>
-
-                </div>
-                <div class="modal-footer d-flex justify-content-center border-top-0 py-4">
-                  <button type="button" class="btn btn-primary btn-lg mb-1" style="background-color: #35558a;">
-                    Track your order
-                  </button>
+                <div class="col mb-3">
+                  <p class="small text-muted mb-1">Order No.</p>
+                  <p>012j1gvs356c</p>
                 </div>
               </div>
+
+              <div class="mx-n5 px-5 py-4" style="background-color: #f2f2f2;">
+                <div class="row">
+                  <div class="col-md-8 col-lg-9">
+                    <p>BEATS Solo 3 Wireless Headphones</p>
+                  </div>
+                  <div class="col-md-4 col-lg-3">
+                    <p>£299.99</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8 col-lg-9">
+                    <p class="mb-0">Shipping</p>
+                  </div>
+                  <div class="col-md-4 col-lg-3">
+                    <p class="mb-0">£33.00</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row my-4">
+                <div class="col-md-4 offset-md-8 col-lg-3 offset-lg-9">
+                  <p class="lead fw-bold mb-0" style="color: #f37a27;">£262.99</p>
+                </div>
+              </div>
+
+              <p class="lead fw-bold mb-4 pb-2" style="color: #f37a27;">Tracking Order</p>
+
+              <div class="row">
+                <div class="col-lg-12">
+
+                  <div class="horizontal-timeline">
+
+                    <ul class="list-inline items d-flex justify-content-between">
+                      <li class="list-inline-item items-list">
+                        <p class="py-1 px-2 rounded text-white" style="background-color: #f37a27;">Ordered</p
+                          class="py-1 px-2 rounded text-white" style="background-color: #f37a27;">
+                      </li>
+                      <li class="list-inline-item items-list">
+                        <p class="py-1 px-2 rounded text-white" style="background-color: #f37a27;">Shipped</p
+                          class="py-1 px-2 rounded text-white" style="background-color: #f37a27;">
+                      </li>
+                      <li class="list-inline-item items-list">
+                        <p class="py-1 px-2 rounded text-white" style="background-color: #f37a27;">On the way
+                        </p>
+                      </li>
+                      <li class="list-inline-item items-list text-end" style="margin-right: 8px;">
+                        <p style="margin-right: -8px;">Delivered</p>
+                      </li>
+                    </ul>
+
+                  </div>
+
+                </div>
+              </div>
+
+              <p class="mt-4 pt-2 mb-0">Want any help? <a href="#!" style="color: #f37a27;">Please contact
+                  us</a></p>
+
             </div>
           </div>
-
         </div>
       </div>
     </div>
   </section>
+</body>
+
+</html>
