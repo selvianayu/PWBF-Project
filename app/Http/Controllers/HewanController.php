@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Hewan;
+use Illuminate\Support\Facades\Auth;
 use App\Http\Requests\StoreHewanRequest;
 use App\Http\Requests\UpdateHewanRequest;
 
@@ -13,6 +14,14 @@ class HewanController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function dashboardcust()
+    {
+        // dd(Auth::user()->email);
+        return view('dashboardcust', [
+            'hewans' => Hewan::all(),
+            'users' => Auth::user()->fullname
+        ]);
+    }
     public function index()
     {
         return view('home', [

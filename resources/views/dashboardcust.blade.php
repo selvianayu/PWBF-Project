@@ -19,32 +19,79 @@
         <link href="styles.css" rel="stylesheet" />
         <!-- font awesome icon -->
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        {{-- css icon fb --}}
+        <link href="public/css/boxicons.min.css" rel="stylesheet">
+        <link href="public/css/bootstrap-icons.css" rel="stylesheet">
     </head>
     <body id="page-top">
         <!-- Navigation-->
 
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="/adoption"></a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#constructions">Pet Health Guide</a></li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container px-4 px-lg-5">
+      <a class="navbar-brand" href="/adoption"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#petguide">Pet Health Guide</a></li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Services
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-light"font-family:Merriweather Sans>
-                      <li><a class="dropdown-item" href="#services">Adoption</a></li>
-                      <li><a class="dropdown-item" href="#report">Your Report</a></li>
-                    </ul>
+            </a>
+                <ul class="dropdown-menu dropdown-menu-light"font-family:Merriweather Sans>
+                <li><a class="dropdown-item" href="#services">Adoption</a></li>
+                <li><a class="dropdown-item" href="#report">Your Report</a></li>
+                </ul>
+            </li>
+                        {{-- <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <img class="rounded-circle me-lg-2" src="assets/img/admreyhan.jpg" alt="" style="width: 40px; height: 40px;">
+                            <span class="d-none d-lg-inline-flex">{{$users}}</span>
+                        </a> --}}
+            <li class="nav-item dropdown pe-3">
+                <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+                <img src="assets/img/chenle.jpg" alt="Profile" width="30" height="26" class="rounded-circle">
+                <span class="d-none d-md-block dropdown-toggle ps-2">Zhong Chenle</span>
+                </a><!-- End Profile Iamge Icon -->
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                <li class="dropdown-header">
+                <h6>Zhong Chenle</h6>
+                <span>Adopter</span>
+                </li>
+                    <li>
+                    <hr class="dropdown-divider">
                     </li>
-                    <a class="btn btn-primary btn-sm" href="/signIn" role="button">Sign In</a>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+                <li>
+                <a class="dropdown-item d-flex align-items-center" href="/userprofile">
+                <i class="bi bi-person pe-2"></i>
+                <span>My Profile</span>
+                </a>
+                </li>
+                    <li>
+                    <hr class="dropdown-divider">
+                    </li>
+                <li>
+                <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-gear pe-2"></i>
+                <span>Tracking</span>
+                </a>
+                </li>
+                    <li>
+                    <hr class="dropdown-divider">
+                    </li>
+                 <li>
+                 <hr class="dropdown-divider">
+                 </li>
+                <li>
+                <a class="dropdown-item d-flex align-items-center" href="/logout">
+                <i class="bi bi-box-arrow-right pe-2"></i>
+                <span>Sign Out</span>
+                </a>
+                </li>
+            </ul><!-- End Profile Dropdown Items -->
+            </li><!-- End Profile Nav -->
+            </ul>
+</nav>
+
         <!-- Masthead-->
         <header class="masthead">
             <div class="container px-4 px-lg-5 h-100">
@@ -69,22 +116,22 @@
                         <hr class="divider divider-light" />
                         <p class="text-white-75 mb-4">Find Your Pets is an online shelter that uses Internet technology and resources to produce searchable animals that need homes, Increase public awareness of the availability of adoptable pets, and
 to Elevate the status of pets to that of family member</p>
-
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Services-->
-        <section class="page-section" id="services">
-            <div class="container px-4 px-lg-5">
-                <h2 class="text-center mt-0">Adoption</h2>
-                <hr class="divider" />
-                <div class="row gx-4 gx-lg-5 d-flex justify-content-center">
 
-<div class="row">
+
+        <!-- Services-->
+<section class="page-section" id="services">
+    <div class="container px-4 px-lg-5">
+        <h2 class="text-center mt-0">Adoption</h2>
+        <hr class="divider">
+    <div class="row gx-4 gx-lg-5 d-flex justify-content-center">
+    <div class="row">
       @foreach($hewans as $hewan)
       <div class="col-sm-4">
-          <div class="card">
+          <div class="cards">
               <img src="assets/img/{{$hewan->name}}.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title"></h5>
@@ -128,11 +175,12 @@ to Elevate the status of pets to that of family member</p>
               </div>
               </div>
             </div>
-          </div>
+           </div>
         </div>
       @endforeach
-</div>
-
+    </div>
+    </div>
+</section>
 <!-- <div class="row">
   <div class="col-sm-4">
     <div class="card">
@@ -598,109 +646,352 @@ to Elevate the status of pets to that of family member</p>
 </div> -->
 
 
+<!-- PET HEALTH GUIDE -->
+{{-- <section id="petguide" class="page-section bg-primary">
+<div class="container" data-aos="fade-up">
+    <div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+    <div class="col-lg-8 text-center">
+        <section class="page-section" id="services"> --}}
 
-
-  <!-- pop up adoption 3-->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-        </section>
-        <section class="page-section bg-primary" id="report">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 col-xl-6 text-center">
-                        <h2 class="mt-0 text-light">Your Report</h2>
-                        <hr class="divider" />
-                        <p class="text-light mb-5">Report the animal you find and attach the picture!</p>
+<section class="page-section bg-primary" id="petguide">
+    <div class="container-fluid px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-7">
+                <h2 class="text-white mt-0 text-center">Pet Health Guide</h2>
+                <hr class="divider divider-light" />
+                <div class="card mt-5 mb-3" style="max-width: 800px; background-color: #f4623a;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="assets/img/p8.png" style="height:230px;" class="img-fluid rounded-start">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title text-white">How to improve your pet's mood</h5>
+                          <p class="card-text">You can tell when your pet is joyful,your pet wags her tail excitedly as you approach the pet park, your cat curls up next to you and purrs. And it's true, animals have moods too. With both dogs and cats, exercise is essential for staying physically and emotionally healthy</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
                     </div>
-                </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                    <div class="col-lg-6">
-                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                              <!-- file input-->
-                            <div class="form-floating mb-3">
-                            <input type="file" class="form-control" id="file">
-                            </div>
+                  </div>
 
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3 text-light">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up please!
-                                    <br />
-                                    <a href=""></a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-light btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
-                        </form>
+                  <div class="card mt-5 mb-3" style="max-width: 800px; background-color: #f4623a;">
+                    <div class="row g-0">
+                      <div class="col-md-8">
+                        <div class="card-body text-end">
+                          <h5 class="card-title text-white">Why must vaccinate your pets?</h5>
+                          <p class="card-text">Vaccines are preventative rather than curative. Vaccinations protect your pet from several highly contagious diseases such as canine distemper, parvovirus infection and respiratory tract infections. It also protects against transmissible diseases such as rabies that also pose a risk to humans.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <img src="assets/img/p9.png" style="height:230px;" class="img-fluid rounded-start">
+                      </div>
                     </div>
-                </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                        <i class="bi bi-phone fs-2 mb-3" style="color: #fff;"></i>
-                        <div class="text-light">+62 123-4567-8910</div>
+                  </div>
+
+                  <div class="card mt-5 mb-3" style="max-width: 800px; background-color: #f4623a;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="assets/img/p4.png" style="height:240px;" class="img-fluid rounded-start">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title text-white">7 Essential Cleaning Tips Every Pet Owner Should Know</h5>
+                          <ul class="list-unstyled">
+                            <li>This is essential cleaning tips for pet owner :
+                              <ul>
+                                <li>Use A Lint Roller (Or Handheld Vacuum)</li>
+                                <li>Stop Dirt at the Door</li>
+                                <li>Deep-Clean All Pet Collars and Toys</li>
+                                <li>Use White Vinegar to Deodorize Your Carpet</li>
+                                <li>Brush Your Pets Regularly</li>
+                                <li>Use Baking Soda to Clean Your Pet Beds</li>
+                                <li>Scoop & Clean the Litter Box (More Often Than You Think)</li>
+                              </ul>
+                            </li>
+                          </ul>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
                     </div>
-                </div>
+                  </div>
+
+                  <div class="card mt-5 mb-3" style="max-width: 800px; background-color: #f4623a;">
+                    <div class="row g-0">
+                      <div class="col-md-8">
+                        <div class="card-body text-end">
+                          <h5 class="card-title text-white">How to select a high quality pet food</h5>
+                          <p class="card-text">It may take some initial time and energy in determining which food is right for your pet, but your efforts will be rewarded in a healthy, happy, beautiful pet. The best way to find the healthiest kitten food is to compare foods, choose a few possible options, and then talk with your veterinarian about which of those is best for your pet. Consider the protein source in the food and pick a diet that does not contain a lot of filler ingredients.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <img src="assets/img/p6.png" style="height:230px;" class="img-fluid rounded-start">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card mt-5 mb-3" style="max-width: 800px; background-color: #f4623a;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="assets/img/p10.png" style="height:200px;" class="img-fluid rounded-start">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title text-white">Pets Need Dental Care, Too</h5>
+                          <p class="card-text">Just like you, your pet can suffer from gum disease, tooth loss, and tooth pain. And just like you, regular brushing and oral cleanings help keep your pet’s teeth strong and healthy.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+             </div>
+        </div>
+    </div>
+</section>
+
+{{-- <div class="col-lg-6" data-aos="fade-up" data-aos-delay="700">
+  <div class="card-item">
+    <div class="row">
+      <div class="col-xl-5">
+      <div class="card-bg"><img src="assets/img/p2.jpg" alt="" style="height:190px;"></div>
+      </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">provide our pet with good hygiene habits at home</h4>
+          <p>As your pets' caretaker, your job is to provide them with good hygiene habits at home as well as at the vet's or groomer's. Brushing their teeth, combing their coats and providing them with healthy food all keeps them in tip-top shape. To stay on track with responsible pet care, schedule hygiene and grooming tasks in your calendar and try combining tasks, such as a comforting comb after trimming nails, until it becomes routine. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="800">
+  <div class="card-item">
+    <div class="row">
+      <div class="col-xl-5">
+      <div class="card-bg"><img src="assets/img/p12.jpg" alt="" style="height:180px;"></div>
+      </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">Training and Socializing</h4>
+          <p>One of the most important aspects of responsible pet care is ensuring your dog or cat is well-trained, and proper socializing is a part of that. Starting when they're young is best and most effective, but it's never too late to learn new tricks. Toilet training is the number one priority for any animal with whom you share your home, as is working on obedience training. Learning socialization skills will help your puppy or kitten bond with you and with other pets. Ask your vet or local animal shelter for recommendations for good trainers in your area or at-home training guides to read. A well-trained pet is a happy pet, and that translates to a happy pet parent.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="900">
+  <div class="card-item">
+    <div class="row">
+      <div class="col-xl-5">
+      <div class="card-bg"><img src="assets/img/p11.jpg" alt="" style="height:180px;"></div>
+      </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">Safe Playtime</h4>
+          <p>It's no secret that dogs and cats love to play, and it's an effective relationship-building activity. Take stock of their toys. Are they safe? Be mindful of threadbare stuffed toys that pose choking hazards and hard, sharp edges that could cause injury. Throw away and replace playthings that are worn out. Making DIY cat toys and dog toys is a great, inexpensive way to bring even more fun to pet parenting!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="1000">
+  <div class="card-item">
+    <div class="row">
+      <div class="col-xl-5">
+      <div class="card-bg"><img src="assets/img/p4.jpg" alt="" style="height:260px;"></div>
+      </div>
+      <div class="col-xl-7 d-flex align-items-center">
+        <div class="card-body">
+          <h4 class="card-title">Veterinarian Visits</h4>
+          <p>Responsible pet ownership starts with regular visits to the veterinarian. Given their shorter-than-human lifespan, your dog or cat should be getting a checkup at least once or twice a year. Depending on your pet's vaccination schedule, they may go more frequently when they're young, but establishing and maintaining good pet health means keeping up with vet visits as they age.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+
+      </div>
+    </section> --}}
+
+
+
+ <!-- YOUR REPORT -->
+ <section class="page-section" id="report">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8 col-xl-6 text-center">
+                <h2 class="mt-0 text-dark">Your Report</h2>
+                <hr class="divider" />
+                <p class="text-dark mb-5">Report the animal you find and attach the picture!</p>
             </div>
-        </section>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- SimpleLightbox plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        </div>
+        <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+            <div class="col-lg-6">
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <!-- Name input-->
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                        <label for="name">Full name</label>
+                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                    </div>
+                    <!-- Email address input-->
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                        <label for="email">Email address</label>
+                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                    </div>
+                    <!-- Phone number input-->
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                        <label for="phone">Phone number</label>
+                        <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                    </div>
+                    <!-- Message input-->
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                        <label for="message">Message</label>
+                        <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                    </div>
+                      <!-- file input-->
+                    <div class="form-floating mb-3">
+                    <input type="file" class="form-control" id="file">
+                    </div>
 
-
+                    <!-- Submit success message-->
+                    <!---->
+                    <!-- This is what your users will see when the form-->
+                    <!-- has successfully submitted-->
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center mb-3 text-light">
+                            <div class="fw-bolder">Form submission successful!</div>
+                            To activate this form, sign up please!
+                            <br />
+                            <a href=""></a>
+                        </div>
+                    </div>
+                    <!-- Submit error message-->
+                    <!---->
+                    <!-- This is what your users will see when there is-->
+                    <!-- an error submitting the form-->
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                    <!-- Submit Button-->
+                    <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
+                </form>
             </div>
-        </section>
+        </div>
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                <i class="bi bi-phone fs-2 mb-3" style="color: rgb(0, 0, 0);"></i>
+                <div class="text-dark">+62 123-4567-8910</div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- SimpleLightbox plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+<!-- Core theme JS-->
+<script src="scripts.js"></script>
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+<!-- * *                               SB Forms JS                               * *-->
+<!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 
-        <footer class="bg-light py-5">
-            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2022 - Selvi & Regyna</div></div>
-        </footer>
+
+        {{-- <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2022 - Company Name</div></div>
+        </footer> --> --}}
+<footer class="bg-primary text-center text-lg-start text-white">
+      <!-- Grid container -->
+    <div class="container p-4">
+        <!--Grid row-->
+        <div class="row my-4">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
+              <img src="https://mdbootstrap.com/img/Photos/new-templates/animal-shelter/logo.png" height="70" alt=""
+                   loading="lazy" />
+            </div>
+            <p class="text-center">Homless animal shelter in this town and it's called Find Your Pet</p>
+            <ul class="list-unstyled d-flex flex-row justify-content-center">
+                <li>
+                  <a class="text-white px-2" href="#!">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white px-2" href="#!">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white ps-2" href="#!">
+                    <i class="bi bi-twitter"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Animals</h5>
+
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="/dashboardcust#about" class="text-white"><i class="bi bi-emoji-laughing pe-2"></i>About the shelter</a>
+              </li>
+              <li class="mb-2">
+                <a href="/dashboardcust#services" class="text-white"><i class="bi bi-emoji-laughing pe-2"></i>Services</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-white"><i class="bi bi-emoji-laughing pe-2"></i>Contact</a>
+              </li>
+            </ul>
+            </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Contact</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <p><i class="bi bi-pin-map-fill pe-2"></i>Surabaya, East Java</p>
+              </li>
+              <li>
+                <p><i class="bi bi-phone-vibrate-fill pe-2"></i>+62 123-4567-8910</p>
+              </li>
+              <li>
+                <p><i class="bi bi-envelope-fill pe-2"></i>findyourpet@gmail.com</p>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
+</footer>
+
+  </div>
+  <!-- End of .container -->
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- SimpleLightbox plugin JS-->

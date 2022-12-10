@@ -12,14 +12,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    
+
     <!-- Style -->
     <link rel="stylesheet" href="css/styleSignIn.css">
 
     <!-- <title>Login #2</title> -->
   </head>
   <body>
-  
+
 
   <div class="d-lg-flex half">
     <div class="bg order-1 order-md-2" style="background-image: url('assets/img/pictLogin.jpg');"></div>
@@ -30,14 +30,21 @@
           <div class="col-md-7">
             <h3>Login to <strong>Find Your Pet</strong></h3>
             <p class="mb-4">Login Here if you want adopt a pets</p>
-            <form action="#" method="get">
+            <form action="/signIn" method="post">
+                @csrf
               <div class="form-group first mb-3">
+                @if (session()->has('fail'))
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    {{session('fail')}}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                  </div>
+                @endif
                 <label for="username mg-2">Username</label>
-                <input type="text" class="form-control" placeholder="your-email@gmail.com" id="username">
+                <input type="text" class="form-control" placeholder="your-email@gmail.com" name="username">
               </div>
               <div class="form-group last mb-3">
                 <label for="password">Password</label>
-                <input type="password" class="form-control" placeholder="Your Password" id="password">
+                <input type="password" class="form-control" name="password" placeholder="Your Password" id="password">
               </div>
 
               <div class="row mb-0">
@@ -50,7 +57,7 @@
                 </div>
              </div>
              <div class="d-grid gap-2 mt-2">
-                <a href="/"><button class="btn btn-warning" type="button">Sign In</button></a>
+                <button class="btn btn-warning" type="submit">Sign In</button>
               </div>
              <!-- <button type="submit" class="btn btn-warning mb-4">Sign in</button> -->
               <!-- <div class="d-flex mb-4 align-items-center">
@@ -75,10 +82,10 @@
       </div>
     </div>
 
-    
+
   </div>
-    
-    
+
+
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>

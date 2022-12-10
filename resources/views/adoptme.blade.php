@@ -8,7 +8,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	
+
 	<link rel="stylesheet" href="css/styleSignUp.css">
 
 	</head>
@@ -84,14 +84,14 @@
                                     </div>
 				                    </div>
                                     </div>
-                                
-								
+
+
                                     </div>
-                                
+
 									<!-- <div class="col-md-12 my-4">
 										<div class="form-group">
-                                
-                                
+
+
 				            	<div class="w-100">
 					            	<label class="checkbox-wrap checkbox-primary">I agree all statements in terms of service
 												  <input type="checkbox" checked>
@@ -101,7 +101,7 @@
 				            </div>
 									</div> -->
 									<div class="col-md-12">
-										<div class="form-group d-flex align-items-center">	
+										<div class="form-group d-flex align-items-center">
 										<button type="button" class="btn btn-dark rounded-pill p-3" data-bs-toggle="modal" data-bs-target="#adopt">
                 						Adopt
               							</button>
@@ -113,18 +113,18 @@
                      								 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     								</div>
                    								 <div class="modal-body">
-                      								Your adoption process has been successful and is being validated by the admin. 
+                      								Your adoption process has been successful and is being validated by the admin.
                     							</div>
                    						 			<div class="modal-footer">
                       								<!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
-                      								<a href="/"><button type="button" class="btn btn-dark rounded-pill p-3">Okay!</button></a>
+                      								<a href="/userhome"><button type="button" class="btn btn-dark rounded-pill p-3">Okay!</button></a>
                    									</div>
                   								</div>
                 								</div>
-              							</div>							
+              							</div>
 				           			 	</div>
-									
-									
+
+
 									<!-- <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         <a href="/adoptme"><button type="button" class="btn btn-primary">Adopt me?</button></a> -->

@@ -4509,7 +4509,7 @@ textarea.form-control-lg {
   color: #fff;
 }
 
-.card {
+.cards{
   position: relative;
   display: flex;
   flex-direction: column;

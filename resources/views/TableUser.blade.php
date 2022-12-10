@@ -157,8 +157,8 @@
                             <span class="d-none d-lg-inline-flex">Reyhan</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
-                   
-                            <a href="/" class="dropdown-item">Log Out</a>
+
+                            <a href="/logout" class="dropdown-item">Log Out</a>
                         </div>
                     </div>
                 </div>
@@ -176,7 +176,7 @@
                             <thead>
                                 <tr class="text-dark">
                                     <th scope="col"><input class="form-check-input" type="checkbox"></th>
-                                    <th scope="col">Name</th>
+                                    <th scope="col">Full Name</th>
                                     <!-- <th scope="col">Invoice</th> -->
                                     <th scope="col">Email</th>
                                     <!-- <th scope="col">Amount</th> -->
@@ -186,20 +186,22 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                @foreach($users as $user)
                             <tr>
                                     <td><input class="form-check-input" type="checkbox"></td>
-                                    <td>Revita</td>
+                                    <td>{{$user->fullname}}</td>
                                     <!-- <td>INV-0123</td> -->
-                                    <td>Revita@gmail.com</td>
+                                    <td>{{$user->email}}</td>
                                     <!-- <td>$123</td> -->
-                                    <td>085865624720</td>
+                                    <td>{{$user->phone_number}}</td>
                                     <td><a class="btn btn-sm btn-secondary" data-bs-toggle="modal" data-bs-target="#revita">Detail</a></td>
 
                                     <td><a class="btn-group">
                                     <a href="#" class="btn btn-danger active" aria-current="page">Delete</a>
                                     <a href="#" class="btn btn-warning">Edit</a><td>
                                 </tr>
-                                <tr>
+
+                                {{-- <tr>
                                     <td><input class="form-check-input" type="checkbox"></td>
                                     <td>Revita</td>
                                     <!-- <td>INV-0123</td> -->
@@ -279,8 +281,9 @@
                                 </tr>
                                 </tr>
                             </tbody>
-                        </table>
+                        </table> --}}
                     </div>
+                    @endforeach
                 </div>
             </div>
 

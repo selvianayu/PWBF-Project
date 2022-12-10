@@ -34,11 +34,11 @@
 <body>
     <div class="container-xxl position-relative bg-white d-flex p-0">
         <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        {{-- <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
                 <span class="sr-only">Loading...</span>
             </div>
-        </div>
+        </div> --}}
         <!-- Spinner End -->
 
 
@@ -123,7 +123,7 @@
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
                             <!-- <a href="#" class="dropdown-item">Settings</a> -->
-                            <a href="/" class="dropdown-item">Log Out</a>
+                            <a href="/logout" class="dropdown-item">Log Out</a>
                         </div>
                     </div>
                 </div>
@@ -161,10 +161,10 @@
                             </div>
                         </div>
                     </div>
-                   
+
                 </div>
             </div>
-           
+
 
             <!-- Recent Sales Start -->
             <div class="container-fluid pt-4 px-4">
@@ -233,9 +233,9 @@
                                     <td>adopt cat</td>
                                     <td><a class="btn btn-sm btn-secondary" href="">Detail</a></td>
                                 </tr>
-                               
-                                
-                               
+
+
+
                             </tbody>
                         </table>
                     </div>
